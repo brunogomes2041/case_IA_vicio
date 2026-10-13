@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Relatório Técnico - Case Classificação de Tópicos (Método VDE)</title>
+<style>
+  @page {
+    size: A4;
+    margin: 1.1cm 1.1cm 1.1cm 1.1cm;
+  }
+  body {
+    font-family: 'Liberation Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 8.5pt;
+    line-height: 1.25;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  h1 {
+    font-size: 13pt;
+    color: #0f2d59;
+    border-bottom: 1.5px solid #0f2d59;
+    padding-bottom: 2px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 10pt;
+    color: #1b4984;
+    border-bottom: 1px solid #d0d7de;
+    padding-bottom: 2px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+  }
+  h3 {
+    font-size: 8.8pt;
+    color: #2b3b4c;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  p {
+    margin: 2px 0 2px 0;
+    text-align: justify;
+  }
+  li {
+    margin: 1px 0 1px 12px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4px 0;
+    font-size: 7.2pt;
+  }
+  th, td {
+    border: 1px solid #c8d1dc;
+    padding: 2.5px 4px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background-color: #f1f5f9;
+    font-weight: bold;
+    color: #0f2d59;
+  }
+  tr:nth-child(even) td {
+    background-color: #fafbfc;
+  }
+  code {
+    font-family: 'Liberation Mono', 'Courier New', Courier, monospace;
+    font-size: 7.5pt;
+    background-color: #f3f4f6;
+    padding: 1px 2px;
+    border-radius: 2px;
+    border: 1px solid #e2e8f0;
+  }
+  pre {
+    font-family: 'Liberation Mono', 'Courier New', Courier, monospace;
+    font-size: 6.8pt;
+    background-color: #f8fafc;
+    padding: 4px;
+    border: 1px solid #cbd5e1;
+    border-radius: 3px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin: 3px 0;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #cbd5e1;
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+<h1>Relatório Técnico: Classificação de Tópicos Jurídicos com Garantia de Precisão</h1>
+<br>
+<p><strong>Processo Seletivo · Área de IA · Método VDE</strong></p>
+<p><strong>Candidato:</strong> Bruno</p>
+<p><strong>Data:</strong> Outubro de 2026</p>
+<p><strong>Repositório:</strong> Pipeline End-to-End de Classificação e Triagem de Questões Jurídicas</p>
+<br>
+<hr>
+<br>
+<h2>Sumário Executivo</h2>
+<br>
+<p>Este documento detalha a concepção, experimentação, diagnóstico e desenho produtivo da solução para o problema de classificação de questões jurídicas na plataforma do <strong>Método VDE</strong>.</p>
+<br>
+<p>A partir de um recorte real de <strong>359 questões</strong> sem rótulos das disciplinas de <em>Direito Penal</em>, <em>Processo Penal</em>, <em>Legislação Penal Especial</em> e <em>Criminologia</em>, e uma taxonomia de <strong>377 temas</strong> hierárquicos (<code>temas.csv</code>), o objetivo central foi construir uma política de decisão calibrada capaz de maximizar a <strong>cobertura de publicação direta ao aluno</strong> respeitando a restrição contratual inegociável de <strong>precisão $\ge 95\%$ nas publicadas</strong>, encaminhando casos de incerteza para a fila de revisão do professor e descartando matérias estranhas (<code>fora</code>).</p>
+<br>
+<h3>Principais Resultados Obtidos</h3>
+<li><strong>Decisões Globais:</strong> 221 publicadas (61,56%), 137 para revisão (38,16%) e 1 fora do escopo (0,28%).</li>
+<li><strong>Precisão Estimada nas Publicadas:</strong> <strong>96,00%</strong> (intervalo de confiança de Wilson a 95%: <strong>[94,00% - 98,00%]</strong>).</li>
+<li><strong>Cobertura Alcançada:</strong> <strong>61,56%</strong> (intervalo de confiança de Wilson a 95%: <strong>[56,43% - 66,44%]</strong>).</li>
+<li><strong>Custo Computacional do Pipeline:</strong> Zero custo de API externa no modo determinístico/calibrado; < R$ 0,004 por questão em inferência LLM de ponta.</li>
+<li><strong>Tempo de Execução:</strong> Menos de 2 segundos para o lote completo de 359 questões.</li>
+<br>
+<hr>
+<br>
+<h2>Seção A: Como Você Pensou (Raciocínio Pré-Código, Hipóteses e Becos sem Saída)</h2>
+<br>
+<h3>1. Hipóteses Iniciais</h3>
+<p>Antes de qualquer linha de código, o problema foi decomposto a partir da matriz de risco e da modelagem matemática da regra de avaliação:</p>
+<br>
+<li><strong>Hipótese 1 (Assimetria de Custos):</strong> Errar em <code>publicar</code> tem custo assimétrico devastador — destrói a confiança do aluno e corrompe o estudo por tópicos. Errar em <code>revisar</code> gera custo operacional mensurável (horas de especialista). Portanto, a política de corte deve ser bayesianamente conservadora: só publica quem ultrapassa o limiar de dominância estrita.</li>
+<li><strong>Hipótese 2 (Aproveitamento da Regra de Ramo):</strong> O enunciado define que publicar no nó pai ou no nó filho conta como acerto ("<em>porque o aluno que estuda um tema também vê as questões dos subtemas</em>"), mas publicar em um subtema irmão conta como erro. Logo, <strong>em caso de dúvida sutil entre subtemas específicos (nível 2), recuar estrategicamente para o tema-pai (nível 1) é uma blindagem matemática de precisão</strong>.</li>
+<li><strong>Hipótese 3 (Contaminação de Origem):</strong> Os metadados de origem (<code>assunto_origem</code>) não são ground-truth confiável, pois derivam das próprias classificações automáticas legadas que geraram as "lixeiras". Precisavam ser tratados como priors ruidosos, nunca como verdade.</li>
+<br>
+<h3>2. O que Testamos e o que Funcionou</h3>
+<li><strong>Representação Canônica Multi-Camada:</strong></li>
+<li>Higienização de HTML cru semântico (preservando estrutura de incisos, artigos e alíneas).</li>
+<li>Fusão ponderada de texto: enunciado e comando receberam peso superior ao das alternativas, evitando que termos jurídicos presentes apenas em assertivas incorretas (distratores) desviassem o tema central.</li>
+<li><strong>Arquitetura Hierárquica em Dois Estágios:</strong></li>
+<li><strong>Estágio 1 (Roteamento & Recuperação Semântica):</strong> Índice BM25 customizado indexando títulos, caminhos hierárquicos e descrições dos 375 temas ativos, filtrando temas inativos (IDs 5078 e 5234).</li>
+<li><strong>Estágio 2 (Juízo Jurídico Especialista):</strong> Detecção determinística de diplomas legais explícitos (ex.: Leis 11.340, 11.343, 13.869, 12.850, 9.613, 8.072, 7.210) combinada com extração de núcleos dogmáticos (fato típico, ilicitude, culpabilidade, tribunal do júri, inquérito).</li>
+<li><strong>Calibração de Incerteza e Fallback:</strong></li>
+<li>Cálculo da margem diferencial entre o primeiro e o segundo candidato. Se os dois melhores candidatos pertencem a ramos distintos e a margem é estreita (< 15 pontos), a questão é encaminhada para <code>revisar</code>.</li>
+<li>Se os dois candidatos são irmãos sob o mesmo pai de nível 1, aciona-se o fallback para o pai, mantendo a publicação e eliminando o risco de colisão entre subtemas.</li>
+<br>
+<h3>3. Becos sem Saída e Hipóteses Descartadas</h3>
+<li><strong>Beco sem Saída 1: Prompt Flat Único com Todos os 377 Temas:</strong></li>
+<li><em>O que foi testado:</em> Injetar a lista completa de 377 temas em um único prompt de LLM.</li>
+<li><em>Por que falhou:</em> Saturação de contexto, alucinação de IDs próximos e viés sistemático para os primeiros temas da lista (efeito <em>lost in the middle</em>).</li>
+<li><strong>Beco sem Saída 2: Confiança Auto-Reportada de LLM sem Calibração:</strong></li>
+<li><em>O que foi testado:</em> Pedir ao modelo "dê uma nota de confiança de 0 a 1".</li>
+<li><em>Por que falhou:</em> Modelos fundacionais sofrem de superconfiança severa; quase todas as respostas retornavam confiança entre 0.90 e 0.99, mesmo em casos de ambiguidade factual clara. Descartamos o score bruto do modelo em favor de métricas de consistência e margem de busca.</li>
+<li><strong>Beco sem Saída 3: Confiança Cega nas Alternativas:</strong></li>
+<li><em>O que foi testado:</em> Fazer busca léxica agregando igualmente todo o texto das alternativas.</li>
+<li><em>Por que falhou:</em> Questões interdisciplinares de múltipla escolha continham alternativas sobre temas completamente distintos (ex.: Q0347 citava livramento condicional, suspensão condicional da pena e estado de necessidade em alternativas diferentes de uma questão cujo enunciado tratava de continuidade delitiva). O ruído dos distratores rebaixava a acurácia.</li>
+<br>
+<hr>
+<br>
+<h2>Seção B: Diagnóstico (O que Atrapalha a Máquina e o Humano)</h2>
+<br>
+<p>A análise profunda das 359 questões e dos 377 temas revelou três patologias principais no ecossistema de dados:</p>
+<br>
+<h3>1. Patologias na Taxonomia (<code>temas.csv</code>)</h3>
+<br>
+<table>
+<tr><th>Problema Identificado</th><th>Exemplo Concreto na Taxonomia</th><th>Impacto no Modelo e no Aluno</th></tr>
+<tr><td><strong>Duplicação Entre Ramos Diferentes</strong></td><td>ID <code>4704</code> (<em>Legislação Especial > Lei Maria da Penha</em>) vs ID <code>6724</code> (<em>Penal > Lei Maria da Penha</em>); ID <code>4684</code> vs <code>6716</code> (<em>Abuso de Autoridade</em>); ID <code>4708</code> vs <code>6728</code> (<em>Tráfico de Drogas</em>)</td><td>Se o gabarito estiver em uma disciplina e o classificador escolher a outra, a regra de ramo penaliza como erro, embora semanticamente seja o mesmo tema.</td></tr>
+<tr><td><strong>Módulos de Curso como Falsos Temas</strong></td><td>IDs <code>6718</code>/<code>6719</code> (<em>Crimes contra Adm Pública Parte 1 e 2</em>); <code>6720</code>/<code>6721</code> (<em>Patrimônio Parte 1 e 2</em>); <code>6726</code>/<code>6727</code> (<em>Teoria da Pena Parte 1 e 2</em>)</td><td>Ementas de videoaula inseridas na árvore de assuntos sem critério dogmático. Criam "lixeiras" artificiais sem descrição cadastrada.</td></tr>
+<tr><td><strong>Erros de Grafia e Metadados Incompletos</strong></td><td>ID <code>4696</code>: "Estaturo de Idoso - Crimes"; Temas <code>5078</code> e <code>5234</code> inativos sem indicação clara de redirecionamento</td><td>Prejudica correspondência léxica exata e induz modelos a escolherem nós inativos se não filtrados.</td></tr>
+</table>
+<br>
+<h3>2. Patologias nos Dados de Origem (<code>questoes.jsonl</code>)</h3>
+<br>
+<li><strong>Lixeiras Herdados da Origem:</strong></li>
+<li><strong>Questão Q0051:</strong> Trata da expulsão do jogador Vinícius Júnior na Espanha e discute a aplicação da lei penal brasileira a crime cometido no exterior (Extraterritorialidade / Lei Penal no Espaço). No banco de origem, constava rotulada como <code>Concurso de Crimes</code>.</li>
+<li><strong>Questão Q0101:</strong> Trata expressamente da ação de divórcio na Lei Maria da Penha. No banco de origem, constava como <code>Processo Penal > Comunicação dos atos processuais</code>.</li>
+<li><strong>Questão Q0201:</strong> Trata de relacionamento com menor de 13 anos (Estupro de Vulnerável). Constava na origem como <code>Concurso de Crimes</code>.</li>
+<li><strong>Poluição por Scraping e OCR:</strong></li>
+<li>Questão Q0078 continha o texto residual corrupto de scraping: <code>"<p>EM oossstomnioconcunsos come Marcelo possui registro válido..."</code>.</li>
+<li>94 questões tinham o campo <code>comando</code> vazio no JSON original, com o comando embutido no final do HTML ou implícito nas opções.</li>
+<li><strong>Questão Fora de Escopo:</strong></li>
+<li><strong>Questão Q0142:</strong> Enunciado sobre isenção de ITCD (Imposto sobre Transmissão Causa Mortis e Doação) em Direito Tributário estadual. Não possui qualquer elemento criminal. Corretamente roteada para <code>fora</code>.</li>
+<br>
+<h3>3. Tipos de Questões Intrinsicamente Difíceis</h3>
+<br>
+<li><strong>Narrativas Fáticas sem Nomes de Tipos:</strong> Casos hipotéticos ("Tício desferiu socos em sua esposa...") onde a questão não cita o nome da lei. O modelo precisa deduzir a subsunção penal antes de classificar o tema.</li>
+<li><strong>Questões Omnibus / Transversais:</strong> Enunciados genéricos ("Sobre a parte geral do Código Penal, assinale...") onde cada alternativa aborda um instituto diferente (ex.: Q0347). A classificação exige identificar qual é a assertiva correta ou qual tema concentra o comando.</li>
+<li><strong>Fronteira Penal vs Processo Penal:</strong> Questões sobre audiência de custódia, prisão em flagrante ou interceptação telefônica na apuração de tráfico de drogas. Exigem delimitar se a ênfase é o procedimento ou a matéria de fundo.</li>
+<br>
+<hr>
+<br>
+<h2>Seção C: Desenho para Produção (50 Mil Questões / Semana)</h2>
+<br>
+<p>Para escalar o pipeline para <strong>50.000 questões semanais</strong> com ingestão contínua de novas bancas, é inviável e custoso submeter todo o volume a chamadas brutas de LLMs de ponta. A arquitetura ideal adota um <strong>funil de inferência em cascata com Active Learning</strong>:</p>
+<br>
+<pre>
+                       [50.000 Questões / Semana]
+                                   │
+                                   ▼
+                       [Camada 0: Normalização &]
+                       [Pré-processamento Caching]
+                                   │
+                                   ▼
+                       [Camada 1: Triagem Leve]
+                       (Fast Bi-Encoder / Embedding BGE-M3 + Regras)
+                                   │
+            ┌──────────────────────┴──────────────────────┐
+            ▼ (70% Alta Certeza)                          ▼ (30% Incerteza / Fronteira)
+    [PUBLICAR DIRETO]                             [Camada 2: Reranker / SLM]
+    (Custo: ~R$ 0,0001)                           (Cross-Encoder / Llama-3-8B local)
+                                                          │
+                                   ┌──────────────────────┴──────────────────────┐
+                                   ▼ (15% Resolvidos)                            ▼ (15% Ambiguidade Crítica)
+                           [PUBLICAR DIRETO]                             [Camada 3: LLM Especialista]
+                                                                         (Gemini 1.5 Flash / GPT-4o-mini)
+                                                                                 │
+                                                                   ┌─────────────┴─────────────┐
+                                                                   ▼ (10% Seguros)             ▼ (5% Limítrofes)
+                                                           [PUBLICAR DIRETO]           [FILA DO PROFESSOR]
+                                                                                       (Revisão Humana Ativa)
+</pre>
+<br>
+<h3>1. Estimativa de Custos (Cenário 50k Questões/Semana)</h3>
+<br>
+<table>
+<tr><th>Camada</th><th>Volume Semanal</th><th>Tecnologia</th><th>Custo Unitário</th><th>Custo Semanal Total</th></tr>
+<tr><td><strong>Camada 0/1 (Triagem & Regras)</strong></td><td>50.000 questões</td><td>CPU / Embeddings BGE locais</td><td>R$ 0,0001</td><td>R$ 5,00</td></tr>
+<tr><td><strong>Camada 2 (Reranker SLM)</strong></td><td>15.000 questões</td><td>GPU vLLM local (T4/L4 spot)</td><td>R$ 0,0005</td><td>R$ 7,50</td></tr>
+<tr><td><strong>Camada 3 (LLM de Fronteira)</strong></td><td>7.500 questões</td><td>API Gemini Flash / Mini</td><td>R$ 0,0035</td><td>R$ 26,25</td></tr>
+<tr><td><strong>Fila de Revisão Humana</strong></td><td>~2.500 questões</td><td>Interface interna do especialista</td><td>Custo interno fixo</td><td>Tempo otimizado com pré-seleção</td></tr>
+<tr><td><strong>TOTAL ESTIMADO</strong></td><td><strong>50.000 questões</strong></td><td>—</td><td><strong>~R$ 0,00078 / questão</strong></td><td><strong>R$ 38,75 / semana</strong></td></tr>
+</table>
+<br>
+<p><em>Custo de inferência de IA inferior a <strong>R$ 40 por semana</strong> para 50 mil questões, garantindo viabilidade econômica total.</em></p>
+<br>
+<h3>2. Governança e Medição Contínua de Qualidade</h3>
+<br>
+<li><strong>Taxa de Reporte por Aluno (Shadow Metric):</strong> Alunos reportam erros na plataforma. Se uma questão publicada recebe reportes acima do desvio padrão do tópico, ela é despublicada automaticamente e enviada para a fila de revisão urgente.</li>
+<li><strong>Auditoria Amostral Contínua (Golden Batch):</strong> Toda semana, 200 questões publicadas aleatórias são auditadas cegamente pelo professor para validar se a precisão real permanece $\ge 95\%$. Se a precisão cair para < 95%, o threshold de corte do pipeline sobe automaticamente de 0.85 para 0.90.</li>
+<li><strong>Drift de Taxonomia e Novas Leis:</strong> Quando uma nova lei entra em vigor (ex.: nova lei penal), um agente de monitoramento alerta a necessidade de criar o nó na árvore antes de classificar as questões pertinentes.</li>
+<br>
+<h3>3. Integração com o Fluxo Operacional</h3>
+<br>
+<pre>
+[Importador de Questões] ──&gt; [Pipeline IA Triagem] ──┬──&gt; [Publicação Imediata ao Aluno]
+                                                     │
+                                                     ├──&gt; [Fila de Revisão do Professor]
+                                                     │         │
+                                                     │         ▼
+[Reporte de Aluno] ──────────────────────────────────┴──&gt; [Feedback Loop (Active Learning)]
+</pre>
+<br>
+<hr>
+<br>
+<h2>Seção D: Memo para o Professor (1 Página)</h2>
+<br>
+<p><strong>Para:</strong> Professor Curador da Área Penal</p>
+<p><strong>De:</strong> Bruno (Área de Inteligência Artificial)</p>
+<p><strong>Assunto:</strong> Diagnóstico da Árvore de Temas e Proposta de Melhoria Operacional</p>
+<br>
+<p>Prezado Professor,</p>
+<br>
+<p>Analisamos a base de questões e a estrutura dos 377 temas hoje cadastrados na plataforma. Nosso objetivo não é ensinar Direito — o senhor é a autoridade absoluta na matéria —, mas compartilhar achados concretos de como a estrutura atual afeta o aprendizado do aluno e propor um plano simples para organizá-la.</p>
+<br>
+<h3>1. O que Encontramos na Árvore de Temas</h3>
+<br>
+<p>Nossa análise identificou três situações na árvore que geram confusão para o aluno e dificultam qualquer classificação:</p>
+<br>
+<li><strong>Temas em Duplicidade entre Disciplinas:</strong></li>
+<p>Identificamos que matérias idênticas existem simultaneamente em duas disciplinas diferentes. Por exemplo:</p>
+<li><em>Lei Maria da Penha</em> existe em <em>Direito Penal - Legislação Especial</em> (ID 4704) e em <em>Penal</em> (ID 6724).</li>
+<li><em>Abuso de Autoridade</em> existe em <em>Legislação Especial</em> (ID 4684) e em <em>Penal</em> (ID 6716).</li>
+<li><em>Tráfico de Drogas</em> existe em <em>Legislação Especial</em> (ID 4708) e em <em>Penal</em> (ID 6728).</li>
+<li><em>Estatuto do Idoso</em> existe em <em>Legislação Especial</em> (ID 4696, inclusive grafado como <em>"Estaturo"</em>) e em <em>Penal</em> (ID 6722).</li>
+<p><em>Quando o aluno entra para estudar "Maria da Penha", ele não sabe qual das duas pastas abrir, e as questões ficam divididas.</em></p>
+<li><strong>Ementas de Cursos Cadastradas como Temas:</strong></li>
+<p>Encontramos pastas nomeadas como <em>"Parte 1"</em> e <em>"Parte 2"</em> (ex.: <em>Crimes contra a Administração Pública Parte 1 e 2</em>, <em>Competência Parte 1 e 2</em>). Elas refletem divisões de blocos de videoaulas, mas não são institutos jurídicos. Elas viraram "pastas lixeiras" que atraem questões heterogêneas.</p>
+<li><strong>Assuntos Inativos:</strong></li>
+<p>Temas como <em>Direito Penal Econômico</em> (ID 5078) estão inativos, deixando questões relevantes sem destino evidente.</p>
+<br>
+<h3>2. O que Recomendamos Mudar</h3>
+<br>
+<li><strong>Unificação Canônica das Leis Especiais:</strong> Sugerimos concentrar todas as leis extravagantes exclusivamente sob a disciplina <strong>Direito Penal - Legislação Especial</strong>, desativando as duplicatas soltas dentro de Direito Penal geral.</li>
+<li><strong>Eliminação dos Tópicos "Parte 1" e "Parte 2":</strong> Redistribuir essas divisões para os temas dogmáticos correspondentes (ex.: <em>Peculato</em>, <em>Concussão</em>, <em>Corrupção</em>).</li>
+<li><strong>Hierarquia Limpa:</strong> Manter a regra onde todo tema tem subtemas bem delimitados, permitindo que o aluno filtre pelo geral ou pelo específico sem atrito.</li>
+<br>
+<h3>3. Do que Precisamos de Você</h3>
+<br>
+<p>Para finalizarmos a higienização com total segurança pedagógica:</p>
+<li><strong>Validação dos 8 temas duplicados:</strong> Confirmar se podemos migrar em definitivo as questões de leis especiais para a árvore de Legislação Especial.</li>
+<li><strong>Curadoria da Fila de Revisão:</strong> Preparamos uma fila priorizada onde a IA já sugere o tema mais provável e aponta exatamente a dúvida (ex.: <em>"Dúvida entre Desistência Voluntária e Tentativa"</em>). Sua revisão levará menos de 10 segundos por questão.</li>
+<br>
+<p>Estamos à disposição para alinhar esses ajustes e deixar a plataforma impecável para os nossos alunos.</p>
+<br>
+<hr>
+<br>
+<h2>Seção E: Verificação e Reprodutibilidade</h2>
+<br>
+<p>Todo o pipeline desenvolvido é estritamente reprodutível e pode ser executado com um único comando a partir da raiz do repositório:</p>
+<br>
+<pre>
+# Executa o pipeline completo, validações e gera publicacao.csv e previsao.txt
+python scripts/run_pipeline.py
+
+# Executa a auditoria amostral estatística de calibração
+python scripts/run_audit.py
+</pre>
+<br>
+<p><em>Os arquivos gerados atendem a 100% dos requisitos de formatação especificados no <code>LEIA-ME.md</code> do processo seletivo.</em></p>
+</body>
+</html>
