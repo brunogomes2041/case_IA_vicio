@@ -1,0 +1,366 @@
+{
+  "sample_size": 50,
+  "correct_count": 50,
+  "precisao_estimada": 1.0,
+  "precisao_intervalo": [
+    0.9287,
+    1.0
+  ],
+  "cobertura_estimada": 0.6156,
+  "cobertura_intervalo": [
+    0.5643,
+    0.6644
+  ],
+  "records": [
+    {
+      "id": "Q0262",
+      "central_id": "4703",
+      "caminho": "Direito Penal - Legislação Especial > Lei de Execução Penal",
+      "enunciado_resumo": "Sobre a superveniência de doença mental ao apenado na fase de execução de pena ,",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0218",
+      "central_id": "5518",
+      "caminho": "Processo Penal > Prisões em Espécie > Prisão em Flagrante",
+      "enunciado_resumo": "João da Silva vai à agência bancária obter o levantamento de conta de FGTS de te",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0302",
+      "central_id": "5211",
+      "caminho": "Penal > Teoria do Crime: Culpabilidade",
+      "enunciado_resumo": "César é açougueiro e está trabalhando regulamente no freezer do açougue, quando ",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0147",
+      "central_id": "4701",
+      "caminho": "Direito Penal - Legislação Especial > Juizado Especial Criminal",
+      "enunciado_resumo": "Sobre a investigação preliminar e os meios de obtenção de provas e/ou elementos ",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0237",
+      "central_id": "5175",
+      "caminho": "Penal > Iter Criminis",
+      "enunciado_resumo": "Qual a diferença entre desistência voluntária e arrependimento eficaz?",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0243",
+      "central_id": "5175",
+      "caminho": "Penal > Iter Criminis",
+      "enunciado_resumo": "Antônio, durante a madrugada, subtrai, com o emprego de chave falsa, o automóvel",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0310",
+      "central_id": "5508",
+      "caminho": "Processo Penal > Lei Processual no Tempo e no Espaço > Interpretação da Lei processual Penal",
+      "enunciado_resumo": "Sobre a aplicação da Lei Processual Penal, é correto afirmar que:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0060",
+      "central_id": "5071",
+      "caminho": "Penal > Concurso de Pessoas",
+      "enunciado_resumo": "A respeito dos crimes praticados em detrimento da administração pública, assinal",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0325",
+      "central_id": "4704",
+      "caminho": "Direito Penal - Legislação Especial > Lei Maria da Penha",
+      "enunciado_resumo": "Considerando as afirmativas abaixo, é CORRETO afirmar que:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0344",
+      "central_id": "4688",
+      "caminho": "Direito Penal - Legislação Especial > Crimes contra o meio ambiente",
+      "enunciado_resumo": "Quanto à Lei nº 9.605/1998, que dispõe sobre as sanções penais e administrativas",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0133",
+      "central_id": "5524",
+      "caminho": "Processo Penal > Procedimento do Tribunal do Júri",
+      "enunciado_resumo": "A respeito dos procedimentos, julgue o seguinte item.\nNo procedimento do júri, o",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0156",
+      "central_id": "5207",
+      "caminho": "Penal > Teoria da Pena > Suspensão Condicional da Pena",
+      "enunciado_resumo": "De acordo com a Lei n° 9.605/98, que dispõe sobre sanções penais e administrativ",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0274",
+      "central_id": "5211",
+      "caminho": "Penal > Teoria do Crime: Culpabilidade",
+      "enunciado_resumo": "Tendo como referência a jurisprudência sumulada dos tribunais superiores, julgue",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0331",
+      "central_id": "5477",
+      "caminho": "Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus",
+      "enunciado_resumo": "Assinale a alternativa incorreta.",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0146",
+      "central_id": "4708",
+      "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas",
+      "enunciado_resumo": "A Constituição Federal de 1988, no artigo 5°, inciso LVI, prevê expressamente a ",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0118",
+      "central_id": "5520",
+      "caminho": "Processo Penal > Prisões em Espécie > Prisão Temporária",
+      "enunciado_resumo": "Acerca de aspectos diversos do processo penal brasileiro, o próximo item apresen",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0158",
+      "central_id": "4707",
+      "caminho": "Direito Penal - Legislação Especial > Tortura",
+      "enunciado_resumo": "Considere a seguinte situação hipotética: João, agente público, foi processado e",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0297",
+      "central_id": "4695",
+      "caminho": "Direito Penal - Legislação Especial > Crimes Tributários",
+      "enunciado_resumo": "O Direito Penal Econômico, em sentido estrito, é o conjunto de normas jurídico-p",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0077",
+      "central_id": "5181",
+      "caminho": "Penal > Lei Penal no Tempo e no Espaço > Lei penal no Tempo",
+      "enunciado_resumo": "Considere os artigos abaixo. Em seguida, marque a alternativa CORRETA:\nArtigo 1º",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0321",
+      "central_id": "4708",
+      "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas",
+      "enunciado_resumo": "Assinale a alternativa CORRETA:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0284",
+      "central_id": "5524",
+      "caminho": "Processo Penal > Procedimento do Tribunal do Júri",
+      "enunciado_resumo": "No dia 2 de fevereiro de 2022, por volta das 21h, Bernardo, sargento da Marinha,",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0352",
+      "central_id": "5071",
+      "caminho": "Penal > Concurso de Pessoas",
+      "enunciado_resumo": "De acordo com a legislação vigente acerca de recursos em geral no processo penal",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0037",
+      "central_id": "5132",
+      "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",
+      "enunciado_resumo": "Assinale a alternativa INCORRETA:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0170",
+      "central_id": "4708",
+      "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas",
+      "enunciado_resumo": "Em 2024, Guilherme, Américo, Lucas, Rogério e Vladimir praticaram um crime. De a",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0340",
+      "central_id": "5071",
+      "caminho": "Penal > Concurso de Pessoas",
+      "enunciado_resumo": "Assinale a alternativa correta sobre o concurso de pessoas.",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0162",
+      "central_id": "5148",
+      "caminho": "Penal > Dos Crimes contra as Instituições Democráticas",
+      "enunciado_resumo": "A moderna criminologia se dedica, também, ao estudo do controle social do delito",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0021",
+      "central_id": "5503",
+      "caminho": "Processo Penal > Inquérito Policial > Juiz das Garantias",
+      "enunciado_resumo": "Sobre o Juiz das Garantias e o entendimento do STF no julgamento de ações direta",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0203",
+      "central_id": "4702",
+      "caminho": "Direito Penal - Legislação Especial > Lavagem de Dinheiro",
+      "enunciado_resumo": "Julgue o item a seguir com base na Lei n.º 9.613/1998, que dispõe sobre lavagem ",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0332",
+      "central_id": "4701",
+      "caminho": "Direito Penal - Legislação Especial > Juizado Especial Criminal",
+      "enunciado_resumo": "Acolhendo a proposta do Ministério Público aceita pelo autor da infração, o Juiz",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0288",
+      "central_id": "4695",
+      "caminho": "Direito Penal - Legislação Especial > Crimes Tributários",
+      "enunciado_resumo": "I. Não há o crime de estupro, nos termos do Código Penal, na relação sexual cons",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0141",
+      "central_id": "4385",
+      "caminho": "Criminologia > Teorias Sociológicas Explicativas da Criminalidade",
+      "enunciado_resumo": "O efeito criminógeno da grande cidade, valendo-se dos conceitos de desorganizaçã",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0163",
+      "central_id": "4708",
+      "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas",
+      "enunciado_resumo": "O Diretor de determinado presídio é informado, por bilhete anônimo, de que um pr",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0314",
+      "central_id": "5477",
+      "caminho": "Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus",
+      "enunciado_resumo": "O habeas corpus é",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0121",
+      "central_id": "5498",
+      "caminho": "Processo Penal > Inquérito Policial",
+      "enunciado_resumo": "Mário, maior e capaz, foi vítima do crime de dano simples e teve seu carro destr",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0286",
+      "central_id": "5068",
+      "caminho": "Penal > Concurso de Crimes > Concurso Formal",
+      "enunciado_resumo": "No cálculo da pena:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0007",
+      "central_id": "4708",
+      "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas",
+      "enunciado_resumo": "Gilson foi denunciado por tráfico de drogas e, no curso da audiência de instruçã",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0144",
+      "central_id": "5524",
+      "caminho": "Processo Penal > Procedimento do Tribunal do Júri",
+      "enunciado_resumo": "Segundo o Código de Processo Penal, quando a sentença do juiz-presidente no Trib",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0250",
+      "central_id": "5576",
+      "caminho": "Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário",
+      "enunciado_resumo": "Sobre a determinação do regime inicial de cumprimento de pena, é correto afirmar",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0041",
+      "central_id": "5175",
+      "caminho": "Penal > Iter Criminis",
+      "enunciado_resumo": "Sobre as medidas de segurança é correto afirmar:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0186",
+      "central_id": "5202",
+      "caminho": "Penal > Teoria da Pena > Primeira Fase da Dosimetria: Circunstâncias Judiciais",
+      "enunciado_resumo": "No que concerne à fixação da pena-base, é certo que o julgador deve, ao individu",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0094",
+      "central_id": "5524",
+      "caminho": "Processo Penal > Procedimento do Tribunal do Júri",
+      "enunciado_resumo": "Recentemente, o Superior Tribunal de Justiça decidiu que: “A utilização de roupa",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0061",
+      "central_id": "4703",
+      "caminho": "Direito Penal - Legislação Especial > Lei de Execução Penal",
+      "enunciado_resumo": "Sobre a falta grave no processo de execução criminal, é correto afirmar:",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0123",
+      "central_id": "5518",
+      "caminho": "Processo Penal > Prisões em Espécie > Prisão em Flagrante",
+      "enunciado_resumo": "Dadas as assertivas abaixo, assinale a alternativa CORRETA .\nI – A partir da teo",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0290",
+      "central_id": "4701",
+      "caminho": "Direito Penal - Legislação Especial > Juizado Especial Criminal",
+      "enunciado_resumo": "No que diz respeito ao preceituado na Lei nº 9.099/1995, a qual disciplina os Ju",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0293",
+      "central_id": "5185",
+      "caminho": "Penal > Prescrição",
+      "enunciado_resumo": "Lucas e Serafim, primários, foram acusados, em conjunto, de praticarem um furto ",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0254",
+      "central_id": "4704",
+      "caminho": "Direito Penal - Legislação Especial > Lei Maria da Penha",
+      "enunciado_resumo": "Joana, vítima de violência doméstica e familiar perpetrada pelo seu ex-companhei",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0354",
+      "central_id": "5228",
+      "caminho": "Penal > Teoria do Crime: Ilicitude",
+      "enunciado_resumo": "Assinale a alternativa INCORRETA.",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0292",
+      "central_id": "4374",
+      "caminho": "Criminologia > Política Criminal",
+      "enunciado_resumo": "Considerando a atual conjuntura da política criminal brasileira, é correto afirm",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0100",
+      "central_id": "5218",
+      "caminho": "Penal > Teoria do Crime: Fato Típico",
+      "enunciado_resumo": "Augusto levou sua filha, Ana, de treze anos de idade, a uma boate cuja entrada e",
+      "correto_pela_regra": true
+    },
+    {
+      "id": "Q0076",
+      "central_id": "4371",
+      "caminho": "Criminologia > Etapas Evolutivas e Escolas Criminológicas",
+      "enunciado_resumo": "A Criminologia é definida tradicionalmente como a ciência que estuda de forma em",
+      "correto_pela_regra": true
+    }
+  ]
+}

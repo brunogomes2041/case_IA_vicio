@@ -1,0 +1,3002 @@
+{
+  "4365": {
+    "id": "4365",
+    "parent_id": "",
+    "nivel": 0,
+    "disciplina": "Criminologia",
+    "titulo": "Criminologia",
+    "caminho": "Criminologia"
+  },
+  "4366": {
+    "id": "4366",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Classificação das Vítimas",
+    "caminho": "Criminologia > Classificação das Vítimas"
+  },
+  "4367": {
+    "id": "4367",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Classificação dos Criminosos",
+    "caminho": "Criminologia > Classificação dos Criminosos"
+  },
+  "4368": {
+    "id": "4368",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Criminologia no Estado Democrático de Direito",
+    "caminho": "Criminologia > Criminologia no Estado Democrático de Direito"
+  },
+  "4370": {
+    "id": "4370",
+    "parent_id": "4368",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Modelos de Reação ao Delito",
+    "caminho": "Criminologia > Criminologia no Estado Democrático de Direito > Modelos de Reação ao Delito"
+  },
+  "4369": {
+    "id": "4369",
+    "parent_id": "4368",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Sistemas de Prevenção",
+    "caminho": "Criminologia > Criminologia no Estado Democrático de Direito > Sistemas de Prevenção"
+  },
+  "4371": {
+    "id": "4371",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Etapas Evolutivas e Escolas Criminológicas",
+    "caminho": "Criminologia > Etapas Evolutivas e Escolas Criminológicas"
+  },
+  "4373": {
+    "id": "4373",
+    "parent_id": "4371",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Escolas Crimonológicas",
+    "caminho": "Criminologia > Etapas Evolutivas e Escolas Criminológicas > Escolas Crimonológicas"
+  },
+  "4372": {
+    "id": "4372",
+    "parent_id": "4371",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Etapas Evolutivas da Criminologia (Antiguidade, Idade Média e Idade Moderna)",
+    "caminho": "Criminologia > Etapas Evolutivas e Escolas Criminológicas > Etapas Evolutivas da Criminologia (Antiguidade, Idade Média e Idade Moderna)"
+  },
+  "4374": {
+    "id": "4374",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Política Criminal",
+    "caminho": "Criminologia > Política Criminal"
+  },
+  "4375": {
+    "id": "4375",
+    "parent_id": "4374",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Correntes da Política Criminal",
+    "caminho": "Criminologia > Política Criminal > Correntes da Política Criminal"
+  },
+  "4376": {
+    "id": "4376",
+    "parent_id": "4374",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Direito Penal do Inimigo",
+    "caminho": "Criminologia > Política Criminal > Direito Penal do Inimigo"
+  },
+  "4377": {
+    "id": "4377",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Processos de Criminalização e Cifras Criminais",
+    "caminho": "Criminologia > Processos de Criminalização e Cifras Criminais"
+  },
+  "4379": {
+    "id": "4379",
+    "parent_id": "4377",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Cifras Criminais",
+    "caminho": "Criminologia > Processos de Criminalização e Cifras Criminais > Cifras Criminais"
+  },
+  "4378": {
+    "id": "4378",
+    "parent_id": "4377",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Criminalização Primária e Secundária",
+    "caminho": "Criminologia > Processos de Criminalização e Cifras Criminais > Criminalização Primária e Secundária"
+  },
+  "4380": {
+    "id": "4380",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Teoria Geral da Criminologia",
+    "caminho": "Criminologia > Teoria Geral da Criminologia"
+  },
+  "4381": {
+    "id": "4381",
+    "parent_id": "4380",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Conceito e objeto da Criminologia",
+    "caminho": "Criminologia > Teoria Geral da Criminologia > Conceito e objeto da Criminologia"
+  },
+  "4382": {
+    "id": "4382",
+    "parent_id": "4380",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Métodos e funções da Criminologia",
+    "caminho": "Criminologia > Teoria Geral da Criminologia > Métodos e funções da Criminologia"
+  },
+  "4384": {
+    "id": "4384",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Teorias Legitimidoras da Pena",
+    "caminho": "Criminologia > Teorias Legitimidoras da Pena"
+  },
+  "4385": {
+    "id": "4385",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Teorias Sociológicas Explicativas da Criminalidade",
+    "caminho": "Criminologia > Teorias Sociológicas Explicativas da Criminalidade"
+  },
+  "4388": {
+    "id": "4388",
+    "parent_id": "4385",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Teorias Criminológicas em Espécie",
+    "caminho": "Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias Criminológicas em Espécie"
+  },
+  "4386": {
+    "id": "4386",
+    "parent_id": "4385",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Teorias de Nível Individual",
+    "caminho": "Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Individual"
+  },
+  "4387": {
+    "id": "4387",
+    "parent_id": "4385",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Teorias de Nível Sociológico",
+    "caminho": "Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Sociológico"
+  },
+  "4383": {
+    "id": "4383",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Teorias e Síndromes com Enfoque nas Vítimas",
+    "caminho": "Criminologia > Teorias e Síndromes com Enfoque nas Vítimas"
+  },
+  "4389": {
+    "id": "4389",
+    "parent_id": "4365",
+    "nivel": 1,
+    "disciplina": "Criminologia",
+    "titulo": "Vitimologia",
+    "caminho": "Criminologia > Vitimologia"
+  },
+  "4390": {
+    "id": "4390",
+    "parent_id": "4389",
+    "nivel": 2,
+    "disciplina": "Criminologia",
+    "titulo": "Processo de Vitimização",
+    "caminho": "Criminologia > Vitimologia > Processo de Vitimização"
+  },
+  "4683": {
+    "id": "4683",
+    "parent_id": "",
+    "nivel": 0,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Direito Penal - Legislação Especial",
+    "caminho": "Direito Penal - Legislação Especial"
+  },
+  "4684": {
+    "id": "4684",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Abuso de Autoridade",
+    "caminho": "Direito Penal - Legislação Especial > Abuso de Autoridade"
+  },
+  "4685": {
+    "id": "4685",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Biossegurança",
+    "caminho": "Direito Penal - Legislação Especial > Biossegurança"
+  },
+  "4686": {
+    "id": "4686",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Contravenções Penais",
+    "caminho": "Direito Penal - Legislação Especial > Contravenções Penais"
+  },
+  "4692": {
+    "id": "4692",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes Eleitorais",
+    "caminho": "Direito Penal - Legislação Especial > Crimes Eleitorais"
+  },
+  "4693": {
+    "id": "4693",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes Hediondos",
+    "caminho": "Direito Penal - Legislação Especial > Crimes Hediondos"
+  },
+  "4695": {
+    "id": "4695",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes Tributários",
+    "caminho": "Direito Penal - Legislação Especial > Crimes Tributários"
+  },
+  "4687": {
+    "id": "4687",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes contra a Economia Popular",
+    "caminho": "Direito Penal - Legislação Especial > Crimes contra a Economia Popular"
+  },
+  "4689": {
+    "id": "4689",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes contra o Sistema Financeiro",
+    "caminho": "Direito Penal - Legislação Especial > Crimes contra o Sistema Financeiro"
+  },
+  "4688": {
+    "id": "4688",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes contra o meio ambiente",
+    "caminho": "Direito Penal - Legislação Especial > Crimes contra o meio ambiente"
+  },
+  "4690": {
+    "id": "4690",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes de Racismo",
+    "caminho": "Direito Penal - Legislação Especial > Crimes de Racismo"
+  },
+  "4691": {
+    "id": "4691",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes de Trânsito",
+    "caminho": "Direito Penal - Legislação Especial > Crimes de Trânsito"
+  },
+  "4694": {
+    "id": "4694",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Crimes previstos no CDC",
+    "caminho": "Direito Penal - Legislação Especial > Crimes previstos no CDC"
+  },
+  "4696": {
+    "id": "4696",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Estaturo de Idoso - Crimes",
+    "caminho": "Direito Penal - Legislação Especial > Estaturo de Idoso - Crimes"
+  },
+  "4697": {
+    "id": "4697",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Estatuto do Desarmamento",
+    "caminho": "Direito Penal - Legislação Especial > Estatuto do Desarmamento"
+  },
+  "4698": {
+    "id": "4698",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Genocídio",
+    "caminho": "Direito Penal - Legislação Especial > Genocídio"
+  },
+  "4699": {
+    "id": "4699",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Identificação Criminal",
+    "caminho": "Direito Penal - Legislação Especial > Identificação Criminal"
+  },
+  "4700": {
+    "id": "4700",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Interceptação Telefônica",
+    "caminho": "Direito Penal - Legislação Especial > Interceptação Telefônica"
+  },
+  "4701": {
+    "id": "4701",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Juizado Especial Criminal",
+    "caminho": "Direito Penal - Legislação Especial > Juizado Especial Criminal"
+  },
+  "4702": {
+    "id": "4702",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Lavagem de Dinheiro",
+    "caminho": "Direito Penal - Legislação Especial > Lavagem de Dinheiro"
+  },
+  "4704": {
+    "id": "4704",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Lei Maria da Penha",
+    "caminho": "Direito Penal - Legislação Especial > Lei Maria da Penha"
+  },
+  "4703": {
+    "id": "4703",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Lei de Execução Penal",
+    "caminho": "Direito Penal - Legislação Especial > Lei de Execução Penal"
+  },
+  "4705": {
+    "id": "4705",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Organizações Criminosas",
+    "caminho": "Direito Penal - Legislação Especial > Organizações Criminosas"
+  },
+  "4706": {
+    "id": "4706",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Terrorismo",
+    "caminho": "Direito Penal - Legislação Especial > Terrorismo"
+  },
+  "4707": {
+    "id": "4707",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Tortura",
+    "caminho": "Direito Penal - Legislação Especial > Tortura"
+  },
+  "4708": {
+    "id": "4708",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Tráfico de Drogas",
+    "caminho": "Direito Penal - Legislação Especial > Tráfico de Drogas"
+  },
+  "4709": {
+    "id": "4709",
+    "parent_id": "4683",
+    "nivel": 1,
+    "disciplina": "Direito Penal - Legislação Especial",
+    "titulo": "Violência contra Criança e Adolescente",
+    "caminho": "Direito Penal - Legislação Especial > Violência contra Criança e Adolescente"
+  },
+  "5062": {
+    "id": "5062",
+    "parent_id": "",
+    "nivel": 0,
+    "disciplina": "Penal",
+    "titulo": "Penal",
+    "caminho": "Penal"
+  },
+  "6716": {
+    "id": "6716",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Abuso de Autoridade",
+    "caminho": "Penal > Abuso de Autoridade"
+  },
+  "5063": {
+    "id": "5063",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Ação Penal",
+    "caminho": "Penal > Ação Penal"
+  },
+  "5065": {
+    "id": "5065",
+    "parent_id": "5063",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Ação Penal Privada",
+    "caminho": "Penal > Ação Penal > Ação Penal Privada"
+  },
+  "5064": {
+    "id": "5064",
+    "parent_id": "5063",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Ação Penal Pública",
+    "caminho": "Penal > Ação Penal > Ação Penal Pública"
+  },
+  "5066": {
+    "id": "5066",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Concurso de Crimes",
+    "caminho": "Penal > Concurso de Crimes"
+  },
+  "5068": {
+    "id": "5068",
+    "parent_id": "5066",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Concurso Formal",
+    "caminho": "Penal > Concurso de Crimes > Concurso Formal"
+  },
+  "5067": {
+    "id": "5067",
+    "parent_id": "5066",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Concurso Material",
+    "caminho": "Penal > Concurso de Crimes > Concurso Material"
+  },
+  "5069": {
+    "id": "5069",
+    "parent_id": "5066",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Crime Continuado",
+    "caminho": "Penal > Concurso de Crimes > Crime Continuado"
+  },
+  "5070": {
+    "id": "5070",
+    "parent_id": "5066",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Pena de Multa no Concurso de Crimes",
+    "caminho": "Penal > Concurso de Crimes > Pena de Multa no Concurso de Crimes"
+  },
+  "5071": {
+    "id": "5071",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Concurso de Pessoas",
+    "caminho": "Penal > Concurso de Pessoas"
+  },
+  "5072": {
+    "id": "5072",
+    "parent_id": "5071",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Autores e Partícipes",
+    "caminho": "Penal > Concurso de Pessoas > Autores e Partícipes"
+  },
+  "5073": {
+    "id": "5073",
+    "parent_id": "5071",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Autoria Mediata, Colateral e Coautoria",
+    "caminho": "Penal > Concurso de Pessoas > Autoria Mediata, Colateral e Coautoria"
+  },
+  "5076": {
+    "id": "5076",
+    "parent_id": "5071",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Comunicabilidade de Circunstâncias, Condições e Elementares",
+    "caminho": "Penal > Concurso de Pessoas > Comunicabilidade de Circunstâncias, Condições e Elementares"
+  },
+  "5075": {
+    "id": "5075",
+    "parent_id": "5071",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Cooperação Dolosamente Distinta",
+    "caminho": "Penal > Concurso de Pessoas > Cooperação Dolosamente Distinta"
+  },
+  "5074": {
+    "id": "5074",
+    "parent_id": "5071",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Participação",
+    "caminho": "Penal > Concurso de Pessoas > Participação"
+  },
+  "6717": {
+    "id": "6717",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Crimes contra o meio ambiente",
+    "caminho": "Penal > Crimes contra o meio ambiente"
+  },
+  "5077": {
+    "id": "5077",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Das Lesões Corporais",
+    "caminho": "Penal > Das Lesões Corporais"
+  },
+  "5079": {
+    "id": "5079",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Administração Judicial",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial"
+  },
+  "5080": {
+    "id": "5080",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Denunciação Caluniosa, Comunicação Falsa de Crime ou Contravenção e Autoacusação Falsa",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Denunciação Caluniosa, Comunicação Falsa de Crime ou Contravenção e Autoacusação Falsa"
+  },
+  "5082": {
+    "id": "5082",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Exercício Arbitrário das Próprias Razões",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Exercício Arbitrário das Próprias Razões"
+  },
+  "5085": {
+    "id": "5085",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Exercício Arbitrário ou Abuso de Poder",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Exercício Arbitrário ou Abuso de Poder"
+  },
+  "5081": {
+    "id": "5081",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Falso Testemunha ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Falso Testemunha ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito"
+  },
+  "5084": {
+    "id": "5084",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Favorecimento Pessoal e Real",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Favorecimento Pessoal e Real"
+  },
+  "5083": {
+    "id": "5083",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Fraude Processual",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Fraude Processual"
+  },
+  "5086": {
+    "id": "5086",
+    "parent_id": "5079",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Outros crimes contra a Administração Judicial",
+    "caminho": "Penal > Dos Crimes Contra a Administração Judicial > Outros crimes contra a Administração Judicial"
+  },
+  "5087": {
+    "id": "5087",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Administração Pública",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública"
+  },
+  "6718": {
+    "id": "6718",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Administração Pública (Parte 1)",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública (Parte 1)"
+  },
+  "5097": {
+    "id": "5097",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Advocacia Administrativa",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Advocacia Administrativa"
+  },
+  "5091": {
+    "id": "5091",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Concussão e Excesso de Exação",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação"
+  },
+  "5096": {
+    "id": "5096",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Condescendência Criminosa",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Condescendência Criminosa"
+  },
+  "5094": {
+    "id": "5094",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Contrabando ou Descaminho",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Contrabando ou Descaminho"
+  },
+  "5093": {
+    "id": "5093",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Corrupção Ativa",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Corrupção Ativa"
+  },
+  "5092": {
+    "id": "5092",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Corrupção Passiva",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva"
+  },
+  "5090": {
+    "id": "5090",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Emprego Irregular de Verbas ou Rendas Públicas",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Emprego Irregular de Verbas ou Rendas Públicas"
+  },
+  "5088": {
+    "id": "5088",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Noções gerais dos crimes praticados contra a administração pública",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Noções gerais dos crimes praticados contra a administração pública"
+  },
+  "5089": {
+    "id": "5089",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Peculato e Peculato Mediante Erro de Outrem",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Peculato e Peculato Mediante Erro de Outrem"
+  },
+  "5095": {
+    "id": "5095",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Prevaricação",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Prevaricação"
+  },
+  "5100": {
+    "id": "5100",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Resistência, Desobediência e Desacato",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Resistência, Desobediência e Desacato"
+  },
+  "5101": {
+    "id": "5101",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Tráfico de Influência",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Tráfico de Influência"
+  },
+  "5099": {
+    "id": "5099",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Usurpação de Função Pública",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Usurpação de Função Pública"
+  },
+  "5098": {
+    "id": "5098",
+    "parent_id": "5087",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Violência Arbitrária",
+    "caminho": "Penal > Dos Crimes Contra a Administração Pública > Violência Arbitrária"
+  },
+  "5102": {
+    "id": "5102",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Dignidade Sexual",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual"
+  },
+  "5106": {
+    "id": "5106",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Assédio Sexual",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Assédio Sexual"
+  },
+  "5108": {
+    "id": "5108",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Corrupção de Menores",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Corrupção de Menores"
+  },
+  "5110": {
+    "id": "5110",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Disposições Gerais dos Crimes Contra a Dignidade Sexual",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Disposições Gerais dos Crimes Contra a Dignidade Sexual"
+  },
+  "5103": {
+    "id": "5103",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Estupro e Estupro de Vulnerável",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável"
+  },
+  "5105": {
+    "id": "5105",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Importunação Sexual",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Importunação Sexual"
+  },
+  "5109": {
+    "id": "5109",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Outros Crimes Contra a Dignidade Sexual",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Outros Crimes Contra a Dignidade Sexual"
+  },
+  "5107": {
+    "id": "5107",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Registro Não Autorizado da Intimidade Sexual",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Registro Não Autorizado da Intimidade Sexual"
+  },
+  "5104": {
+    "id": "5104",
+    "parent_id": "5102",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Violação Sexual Mediante Fraude",
+    "caminho": "Penal > Dos Crimes Contra a Dignidade Sexual > Violação Sexual Mediante Fraude"
+  },
+  "5116": {
+    "id": "5116",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Fé Pública e de Falsidade Documental",
+    "caminho": "Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental"
+  },
+  "5118": {
+    "id": "5118",
+    "parent_id": "5116",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Da Falsidade Documental",
+    "caminho": "Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental > Da Falsidade Documental"
+  },
+  "5119": {
+    "id": "5119",
+    "parent_id": "5116",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "De outras falsidades",
+    "caminho": "Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental > De outras falsidades"
+  },
+  "5117": {
+    "id": "5117",
+    "parent_id": "5116",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra a Fé Pública",
+    "caminho": "Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental > Dos Crimes contra a Fé Pública"
+  },
+  "5120": {
+    "id": "5120",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Honra",
+    "caminho": "Penal > Dos Crimes Contra a Honra"
+  },
+  "5122": {
+    "id": "5122",
+    "parent_id": "5120",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Calúnia",
+    "caminho": "Penal > Dos Crimes Contra a Honra > Calúnia"
+  },
+  "5123": {
+    "id": "5123",
+    "parent_id": "5120",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Difamação",
+    "caminho": "Penal > Dos Crimes Contra a Honra > Difamação"
+  },
+  "5121": {
+    "id": "5121",
+    "parent_id": "5120",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Disposições Gerais e Comuns aos Crimes Contra a Honra",
+    "caminho": "Penal > Dos Crimes Contra a Honra > Disposições Gerais e Comuns aos Crimes Contra a Honra"
+  },
+  "5124": {
+    "id": "5124",
+    "parent_id": "5120",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Injúria",
+    "caminho": "Penal > Dos Crimes Contra a Honra > Injúria"
+  },
+  "5125": {
+    "id": "5125",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Incolumidade Pública",
+    "caminho": "Penal > Dos Crimes Contra a Incolumidade Pública"
+  },
+  "5127": {
+    "id": "5127",
+    "parent_id": "5125",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Segurança dos Meios de Comunicação e Transporte e Outros Serviços Públicos",
+    "caminho": "Penal > Dos Crimes Contra a Incolumidade Pública > Dos Crimes Contra a Segurança dos Meios de Comunicação e Transporte e Outros Serviços Públicos"
+  },
+  "5126": {
+    "id": "5126",
+    "parent_id": "5125",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes de Perigo Comum",
+    "caminho": "Penal > Dos Crimes Contra a Incolumidade Pública > Dos Crimes de Perigo Comum"
+  },
+  "5128": {
+    "id": "5128",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Liberdade Pessoal",
+    "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal"
+  },
+  "5130": {
+    "id": "5130",
+    "parent_id": "5128",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Ameaça e Perseguição",
+    "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal > Ameaça e Perseguição"
+  },
+  "5133": {
+    "id": "5133",
+    "parent_id": "5128",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos",
+    "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal > Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos"
+  },
+  "5129": {
+    "id": "5129",
+    "parent_id": "5128",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Intimidação Sistemática (Bullying)",
+    "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal > Intimidação Sistemática (Bullying)"
+  },
+  "5132": {
+    "id": "5132",
+    "parent_id": "5128",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas",
+    "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal > Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas"
+  },
+  "5131": {
+    "id": "5131",
+    "parent_id": "5128",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Violência Psicológica contra a Mulher",
+    "caminho": "Penal > Dos Crimes Contra a Liberdade Pessoal > Violência Psicológica contra a Mulher"
+  },
+  "5138": {
+    "id": "5138",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Periclitação da Vida e da Saúde",
+    "caminho": "Penal > Dos Crimes Contra a Periclitação da Vida e da Saúde"
+  },
+  "5141": {
+    "id": "5141",
+    "parent_id": "5138",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Abandono de Incapaz e Exposição ou Abandono de Recém-Nascido",
+    "caminho": "Penal > Dos Crimes Contra a Periclitação da Vida e da Saúde > Abandono de Incapaz e Exposição ou Abandono de Recém-Nascido"
+  },
+  "5143": {
+    "id": "5143",
+    "parent_id": "5138",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Maus-Tratos",
+    "caminho": "Penal > Dos Crimes Contra a Periclitação da Vida e da Saúde > Maus-Tratos"
+  },
+  "5142": {
+    "id": "5142",
+    "parent_id": "5138",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Omissão de Socorro",
+    "caminho": "Penal > Dos Crimes Contra a Periclitação da Vida e da Saúde > Omissão de Socorro"
+  },
+  "5139": {
+    "id": "5139",
+    "parent_id": "5138",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Perigo de Contágio Venéreo e de Moléstia Grave",
+    "caminho": "Penal > Dos Crimes Contra a Periclitação da Vida e da Saúde > Perigo de Contágio Venéreo e de Moléstia Grave"
+  },
+  "5140": {
+    "id": "5140",
+    "parent_id": "5138",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Perigo para a Vida ou a Saúde de Outrem",
+    "caminho": "Penal > Dos Crimes Contra a Periclitação da Vida e da Saúde > Perigo para a Vida ou a Saúde de Outrem"
+  },
+  "5144": {
+    "id": "5144",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública",
+    "caminho": "Penal > Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública"
+  },
+  "5146": {
+    "id": "5146",
+    "parent_id": "5144",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Crimes Contra à Paz Pública",
+    "caminho": "Penal > Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública > Crimes Contra à Paz Pública"
+  },
+  "5145": {
+    "id": "5145",
+    "parent_id": "5144",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Saúde Pública",
+    "caminho": "Penal > Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública > Dos Crimes Contra a Saúde Pública"
+  },
+  "5149": {
+    "id": "5149",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Vida",
+    "caminho": "Penal > Dos Crimes Contra a Vida"
+  },
+  "5154": {
+    "id": "5154",
+    "parent_id": "5149",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Aborto",
+    "caminho": "Penal > Dos Crimes Contra a Vida > Aborto"
+  },
+  "5151": {
+    "id": "5151",
+    "parent_id": "5149",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Feminicídio",
+    "caminho": "Penal > Dos Crimes Contra a Vida > Feminicídio"
+  },
+  "5150": {
+    "id": "5150",
+    "parent_id": "5149",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Homicídio",
+    "caminho": "Penal > Dos Crimes Contra a Vida > Homicídio"
+  },
+  "5152": {
+    "id": "5152",
+    "parent_id": "5149",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Induzimento, Instigação ou Auxílio ao Suicídio",
+    "caminho": "Penal > Dos Crimes Contra a Vida > Induzimento, Instigação ou Auxílio ao Suicídio"
+  },
+  "5153": {
+    "id": "5153",
+    "parent_id": "5149",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Infanticídio",
+    "caminho": "Penal > Dos Crimes Contra a Vida > Infanticídio"
+  },
+  "5157": {
+    "id": "5157",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra o Patrimônio",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio"
+  },
+  "6720": {
+    "id": "6720",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra o Patrimônio (Parte 1)",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio (Parte 1)"
+  },
+  "5158": {
+    "id": "5158",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "12 Disposições Gerais dos Crimes Contra o Patrimônio",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > 12 Disposições Gerais dos Crimes Contra o Patrimônio"
+  },
+  "5167": {
+    "id": "5167",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Abuso de Incapazes",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Abuso de Incapazes"
+  },
+  "5165": {
+    "id": "5165",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Apropriação indébita",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Apropriação indébita"
+  },
+  "5164": {
+    "id": "5164",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dano",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Dano"
+  },
+  "5162": {
+    "id": "5162",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Esbulho Possessório",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Esbulho Possessório"
+  },
+  "5166": {
+    "id": "5166",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Estelionato",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Estelionato"
+  },
+  "5161": {
+    "id": "5161",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Extorsão",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Extorsão"
+  },
+  "5168": {
+    "id": "5168",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Fraude à Execução",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Fraude à Execução"
+  },
+  "5159": {
+    "id": "5159",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Furto",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Furto"
+  },
+  "5169": {
+    "id": "5169",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Receptação",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Receptação"
+  },
+  "5160": {
+    "id": "5160",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Roubo",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Roubo"
+  },
+  "5163": {
+    "id": "5163",
+    "parent_id": "5157",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Usurpação",
+    "caminho": "Penal > Dos Crimes Contra o Patrimônio > Usurpação"
+  },
+  "6719": {
+    "id": "6719",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra a Administração Pública (Parte 2)",
+    "caminho": "Penal > Dos Crimes contra a Administração Pública (Parte 2)"
+  },
+  "5111": {
+    "id": "5111",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra a Família",
+    "caminho": "Penal > Dos Crimes contra a Família"
+  },
+  "5114": {
+    "id": "5114",
+    "parent_id": "5111",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Assistência Familiar",
+    "caminho": "Penal > Dos Crimes contra a Família > Dos Crimes Contra a Assistência Familiar"
+  },
+  "5112": {
+    "id": "5112",
+    "parent_id": "5111",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra o Casamento",
+    "caminho": "Penal > Dos Crimes contra a Família > Dos Crimes Contra o Casamento"
+  },
+  "5113": {
+    "id": "5113",
+    "parent_id": "5111",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra o Estado de Filiação",
+    "caminho": "Penal > Dos Crimes contra a Família > Dos Crimes Contra o Estado de Filiação"
+  },
+  "5115": {
+    "id": "5115",
+    "parent_id": "5111",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra o Pátrio Poder, a Tutela e a Curatela",
+    "caminho": "Penal > Dos Crimes contra a Família > Dos Crimes Contra o Pátrio Poder, a Tutela e a Curatela"
+  },
+  "5134": {
+    "id": "5134",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso",
+    "caminho": "Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso"
+  },
+  "5135": {
+    "id": "5135",
+    "parent_id": "5134",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra a Organização do Trabalho",
+    "caminho": "Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra a Organização do Trabalho"
+  },
+  "5137": {
+    "id": "5137",
+    "parent_id": "5134",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes Contra o Sentimento Religioso e Respeito aos Mortos",
+    "caminho": "Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimes Contra o Sentimento Religioso e Respeito aos Mortos"
+  },
+  "5136": {
+    "id": "5136",
+    "parent_id": "5134",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimescontra a Propriedade Imaterial",
+    "caminho": "Penal > Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso > Dos Crimescontra a Propriedade Imaterial"
+  },
+  "5147": {
+    "id": "5147",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra as Finanças Públicas",
+    "caminho": "Penal > Dos Crimes contra as Finanças Públicas"
+  },
+  "5148": {
+    "id": "5148",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra as Instituições Democráticas",
+    "caminho": "Penal > Dos Crimes contra as Instituições Democráticas"
+  },
+  "5155": {
+    "id": "5155",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra o Estado Democrático de Direito",
+    "caminho": "Penal > Dos Crimes contra o Estado Democrático de Direito"
+  },
+  "5156": {
+    "id": "5156",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra o Funcionamento dos Serviços Essenciais",
+    "caminho": "Penal > Dos Crimes contra o Funcionamento dos Serviços Essenciais"
+  },
+  "6721": {
+    "id": "6721",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Dos Crimes contra o Patrimônio (Parte 2)",
+    "caminho": "Penal > Dos Crimes contra o Patrimônio (Parte 2)"
+  },
+  "6722": {
+    "id": "6722",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Estatuto do Idoso - Crimes",
+    "caminho": "Penal > Estatuto do Idoso - Crimes"
+  },
+  "5170": {
+    "id": "5170",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Introdução ao Estudo do Direito Penal",
+    "caminho": "Penal > Introdução ao Estudo do Direito Penal"
+  },
+  "5174": {
+    "id": "5174",
+    "parent_id": "5170",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Classificações dos Crimes",
+    "caminho": "Penal > Introdução ao Estudo do Direito Penal > Classificações dos Crimes"
+  },
+  "5171": {
+    "id": "5171",
+    "parent_id": "5170",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conceito e Fontes do Direito Penal",
+    "caminho": "Penal > Introdução ao Estudo do Direito Penal > Conceito e Fontes do Direito Penal"
+  },
+  "5173": {
+    "id": "5173",
+    "parent_id": "5170",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Interpretação da Norma Penal",
+    "caminho": "Penal > Introdução ao Estudo do Direito Penal > Interpretação da Norma Penal"
+  },
+  "5172": {
+    "id": "5172",
+    "parent_id": "5170",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Princípios do Direito Penal",
+    "caminho": "Penal > Introdução ao Estudo do Direito Penal > Princípios do Direito Penal"
+  },
+  "5175": {
+    "id": "5175",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Iter Criminis",
+    "caminho": "Penal > Iter Criminis"
+  },
+  "5177": {
+    "id": "5177",
+    "parent_id": "5175",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Crime Consumado e Tentado",
+    "caminho": "Penal > Iter Criminis > Crime Consumado e Tentado"
+  },
+  "5179": {
+    "id": "5179",
+    "parent_id": "5175",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Crime Impossível",
+    "caminho": "Penal > Iter Criminis > Crime Impossível"
+  },
+  "5178": {
+    "id": "5178",
+    "parent_id": "5175",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior",
+    "caminho": "Penal > Iter Criminis > Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior"
+  },
+  "5176": {
+    "id": "5176",
+    "parent_id": "5175",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Fases do Iter Criminis",
+    "caminho": "Penal > Iter Criminis > Fases do Iter Criminis"
+  },
+  "6723": {
+    "id": "6723",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Lavagem de Dinheiro",
+    "caminho": "Penal > Lavagem de Dinheiro"
+  },
+  "6724": {
+    "id": "6724",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Lei Maria da Penha",
+    "caminho": "Penal > Lei Maria da Penha"
+  },
+  "5180": {
+    "id": "5180",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Lei Penal no Tempo e no Espaço",
+    "caminho": "Penal > Lei Penal no Tempo e no Espaço"
+  },
+  "5183": {
+    "id": "5183",
+    "parent_id": "5180",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conflito Aparente de Normas",
+    "caminho": "Penal > Lei Penal no Tempo e no Espaço > Conflito Aparente de Normas"
+  },
+  "5182": {
+    "id": "5182",
+    "parent_id": "5180",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Lei penal no Espaço",
+    "caminho": "Penal > Lei Penal no Tempo e no Espaço > Lei penal no Espaço"
+  },
+  "5181": {
+    "id": "5181",
+    "parent_id": "5180",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Lei penal no Tempo",
+    "caminho": "Penal > Lei Penal no Tempo e no Espaço > Lei penal no Tempo"
+  },
+  "5184": {
+    "id": "5184",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Medida de Segurança",
+    "caminho": "Penal > Medida de Segurança"
+  },
+  "6725": {
+    "id": "6725",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Organizações Criminosas",
+    "caminho": "Penal > Organizações Criminosas"
+  },
+  "5185": {
+    "id": "5185",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Prescrição",
+    "caminho": "Penal > Prescrição"
+  },
+  "5186": {
+    "id": "5186",
+    "parent_id": "5185",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conceito, Regras Gerais e Fundamentos da Prescrição",
+    "caminho": "Penal > Prescrição > Conceito, Regras Gerais e Fundamentos da Prescrição"
+  },
+  "5187": {
+    "id": "5187",
+    "parent_id": "5185",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição",
+    "caminho": "Penal > Prescrição > Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição"
+  },
+  "5190": {
+    "id": "5190",
+    "parent_id": "5185",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Outras Prescrições",
+    "caminho": "Penal > Prescrição > Outras Prescrições"
+  },
+  "5189": {
+    "id": "5189",
+    "parent_id": "5185",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Prescrição da Pretensão Executória",
+    "caminho": "Penal > Prescrição > Prescrição da Pretensão Executória"
+  },
+  "5188": {
+    "id": "5188",
+    "parent_id": "5185",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Prescrição da Pretensão Punitiva",
+    "caminho": "Penal > Prescrição > Prescrição da Pretensão Punitiva"
+  },
+  "5191": {
+    "id": "5191",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Punibilidade",
+    "caminho": "Penal > Punibilidade"
+  },
+  "5194": {
+    "id": "5194",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Abolitio Criminis",
+    "caminho": "Penal > Punibilidade > Abolitio Criminis"
+  },
+  "5193": {
+    "id": "5193",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Anistia, Graça e Indulto",
+    "caminho": "Penal > Punibilidade > Anistia, Graça e Indulto"
+  },
+  "5198": {
+    "id": "5198",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Decadência",
+    "caminho": "Penal > Punibilidade > Decadência"
+  },
+  "5192": {
+    "id": "5192",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Morte do agente",
+    "caminho": "Penal > Punibilidade > Morte do agente"
+  },
+  "5197": {
+    "id": "5197",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Perdão Judicial",
+    "caminho": "Penal > Punibilidade > Perdão Judicial"
+  },
+  "5195": {
+    "id": "5195",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Perempção",
+    "caminho": "Penal > Punibilidade > Perempção"
+  },
+  "5196": {
+    "id": "5196",
+    "parent_id": "5191",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Renúncia, Perdão do Ofendido e Retratação",
+    "caminho": "Penal > Punibilidade > Renúncia, Perdão do Ofendido e Retratação"
+  },
+  "5199": {
+    "id": "5199",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Teoria da Pena",
+    "caminho": "Penal > Teoria da Pena"
+  },
+  "6726": {
+    "id": "6726",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Teoria da Pena (Parte 1)",
+    "caminho": "Penal > Teoria da Pena (Parte 1)"
+  },
+  "6727": {
+    "id": "6727",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Teoria da Pena (Parte 2)",
+    "caminho": "Penal > Teoria da Pena (Parte 2)"
+  },
+  "5209": {
+    "id": "5209",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Efeitos da Condenação Penais e Extrapenais",
+    "caminho": "Penal > Teoria da Pena > Efeitos da Condenação Penais e Extrapenais"
+  },
+  "5208": {
+    "id": "5208",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Livramento Condicional",
+    "caminho": "Penal > Teoria da Pena > Livramento Condicional"
+  },
+  "5206": {
+    "id": "5206",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Pena de Multa",
+    "caminho": "Penal > Teoria da Pena > Pena de Multa"
+  },
+  "5201": {
+    "id": "5201",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Penas Privativas de Liberdade",
+    "caminho": "Penal > Teoria da Pena > Penas Privativas de Liberdade"
+  },
+  "5205": {
+    "id": "5205",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Penas Restritivas de Direitos",
+    "caminho": "Penal > Teoria da Pena > Penas Restritivas de Direitos"
+  },
+  "5202": {
+    "id": "5202",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Primeira Fase da Dosimetria: Circunstâncias Judiciais",
+    "caminho": "Penal > Teoria da Pena > Primeira Fase da Dosimetria: Circunstâncias Judiciais"
+  },
+  "5210": {
+    "id": "5210",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Reabilitação Criminal",
+    "caminho": "Penal > Teoria da Pena > Reabilitação Criminal"
+  },
+  "5200": {
+    "id": "5200",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Sanção Penal: Conceito, Finalidade e Modalidades",
+    "caminho": "Penal > Teoria da Pena > Sanção Penal: Conceito, Finalidade e Modalidades"
+  },
+  "5203": {
+    "id": "5203",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Segunda Fase da Dosimetria: Agravantes e Atenuantes",
+    "caminho": "Penal > Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes"
+  },
+  "5207": {
+    "id": "5207",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Suspensão Condicional da Pena",
+    "caminho": "Penal > Teoria da Pena > Suspensão Condicional da Pena"
+  },
+  "5204": {
+    "id": "5204",
+    "parent_id": "5199",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Terceira fase da Dosimetria: Causas de Aumento e de Diminuição",
+    "caminho": "Penal > Teoria da Pena > Terceira fase da Dosimetria: Causas de Aumento e de Diminuição"
+  },
+  "5211": {
+    "id": "5211",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Teoria do Crime: Culpabilidade",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade"
+  },
+  "5217": {
+    "id": "5217",
+    "parent_id": "5211",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Causas Supralegais de Exclusão da Culpabilidade",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade > Causas Supralegais de Exclusão da Culpabilidade"
+  },
+  "5215": {
+    "id": "5215",
+    "parent_id": "5211",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Coação Moral Irresistível",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade > Coação Moral Irresistível"
+  },
+  "5212": {
+    "id": "5212",
+    "parent_id": "5211",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conceito e Elementos da Culpabilidade",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade > Conceito e Elementos da Culpabilidade"
+  },
+  "5214": {
+    "id": "5214",
+    "parent_id": "5211",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Erro de Proibição",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade > Erro de Proibição"
+  },
+  "5213": {
+    "id": "5213",
+    "parent_id": "5211",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Inimputabilidade",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade > Inimputabilidade"
+  },
+  "5216": {
+    "id": "5216",
+    "parent_id": "5211",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Obediência Hierárquica",
+    "caminho": "Penal > Teoria do Crime: Culpabilidade > Obediência Hierárquica"
+  },
+  "5218": {
+    "id": "5218",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Teoria do Crime: Fato Típico",
+    "caminho": "Penal > Teoria do Crime: Fato Típico"
+  },
+  "5219": {
+    "id": "5219",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conceito, Sujeito e Objeto do Crime",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Conceito, Sujeito e Objeto do Crime"
+  },
+  "5221": {
+    "id": "5221",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conduta",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Conduta"
+  },
+  "5222": {
+    "id": "5222",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Crime Doloso e Culposo",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo"
+  },
+  "5223": {
+    "id": "5223",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Crimes Omissivos e Comissivos",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos"
+  },
+  "5224": {
+    "id": "5224",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Erro de Tipo",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Erro de Tipo"
+  },
+  "5220": {
+    "id": "5220",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Fato Típico",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Fato Típico"
+  },
+  "5226": {
+    "id": "5226",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Nexo Causal e Imputação Objetiva",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Nexo Causal e Imputação Objetiva"
+  },
+  "5225": {
+    "id": "5225",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Resultado",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Resultado"
+  },
+  "5227": {
+    "id": "5227",
+    "parent_id": "5218",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Tipicidade",
+    "caminho": "Penal > Teoria do Crime: Fato Típico > Tipicidade"
+  },
+  "5228": {
+    "id": "5228",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Teoria do Crime: Ilicitude",
+    "caminho": "Penal > Teoria do Crime: Ilicitude"
+  },
+  "5233": {
+    "id": "5233",
+    "parent_id": "5228",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Causas Supralegais de Exclusão da Ilicitude",
+    "caminho": "Penal > Teoria do Crime: Ilicitude > Causas Supralegais de Exclusão da Ilicitude"
+  },
+  "5229": {
+    "id": "5229",
+    "parent_id": "5228",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Conceito e Elementos da Ilicitude",
+    "caminho": "Penal > Teoria do Crime: Ilicitude > Conceito e Elementos da Ilicitude"
+  },
+  "5230": {
+    "id": "5230",
+    "parent_id": "5228",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Estado de Necessidade",
+    "caminho": "Penal > Teoria do Crime: Ilicitude > Estado de Necessidade"
+  },
+  "5232": {
+    "id": "5232",
+    "parent_id": "5228",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Estrito Cumprimento do Dever Legal",
+    "caminho": "Penal > Teoria do Crime: Ilicitude > Estrito Cumprimento do Dever Legal"
+  },
+  "5231": {
+    "id": "5231",
+    "parent_id": "5228",
+    "nivel": 2,
+    "disciplina": "Penal",
+    "titulo": "Legítima Defesa",
+    "caminho": "Penal > Teoria do Crime: Ilicitude > Legítima Defesa"
+  },
+  "6728": {
+    "id": "6728",
+    "parent_id": "5062",
+    "nivel": 1,
+    "disciplina": "Penal",
+    "titulo": "Tráfico de Drogas",
+    "caminho": "Penal > Tráfico de Drogas"
+  },
+  "5465": {
+    "id": "5465",
+    "parent_id": "",
+    "nivel": 0,
+    "disciplina": "Processo Penal",
+    "titulo": "Processo Penal",
+    "caminho": "Processo Penal"
+  },
+  "5466": {
+    "id": "5466",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Ação Penal",
+    "caminho": "Processo Penal > Ação Penal"
+  },
+  "5475": {
+    "id": "5475",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Ação Civil Ex Delicto",
+    "caminho": "Processo Penal > Ação Penal > Ação Civil Ex Delicto"
+  },
+  "5471": {
+    "id": "5471",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Ação Penal Pública Condicionada",
+    "caminho": "Processo Penal > Ação Penal > Ação Penal Pública Condicionada"
+  },
+  "5470": {
+    "id": "5470",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Ação Penal Pública Incondicionada",
+    "caminho": "Processo Penal > Ação Penal > Ação Penal Pública Incondicionada"
+  },
+  "5472": {
+    "id": "5472",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Ação Penal de Iniciativa Privada",
+    "caminho": "Processo Penal > Ação Penal > Ação Penal de Iniciativa Privada"
+  },
+  "5467": {
+    "id": "5467",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Características e Condições da Ação Penal",
+    "caminho": "Processo Penal > Ação Penal > Características e Condições da Ação Penal"
+  },
+  "5468": {
+    "id": "5468",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Classificação da Ação Penal",
+    "caminho": "Processo Penal > Ação Penal > Classificação da Ação Penal"
+  },
+  "5473": {
+    "id": "5473",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Denúncia",
+    "caminho": "Processo Penal > Ação Penal > Denúncia"
+  },
+  "5469": {
+    "id": "5469",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Princípios da Ação Penal",
+    "caminho": "Processo Penal > Ação Penal > Princípios da Ação Penal"
+  },
+  "5474": {
+    "id": "5474",
+    "parent_id": "5466",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Queixa Crime",
+    "caminho": "Processo Penal > Ação Penal > Queixa Crime"
+  },
+  "5476": {
+    "id": "5476",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Ações Autônomas de Impugnação",
+    "caminho": "Processo Penal > Ações Autônomas de Impugnação"
+  },
+  "5477": {
+    "id": "5477",
+    "parent_id": "5476",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Habeas Corpus",
+    "caminho": "Processo Penal > Ações Autônomas de Impugnação > Habeas Corpus"
+  },
+  "5479": {
+    "id": "5479",
+    "parent_id": "5476",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Mandado de Segurança",
+    "caminho": "Processo Penal > Ações Autônomas de Impugnação > Mandado de Segurança"
+  },
+  "5478": {
+    "id": "5478",
+    "parent_id": "5476",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Revisão Criminal",
+    "caminho": "Processo Penal > Ações Autônomas de Impugnação > Revisão Criminal"
+  },
+  "5480": {
+    "id": "5480",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência",
+    "caminho": "Processo Penal > Competência"
+  },
+  "6732": {
+    "id": "6732",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência (Parte 1)",
+    "caminho": "Processo Penal > Competência (Parte 1)"
+  },
+  "6733": {
+    "id": "6733",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência (Parte 2)",
+    "caminho": "Processo Penal > Competência (Parte 2)"
+  },
+  "5483": {
+    "id": "5483",
+    "parent_id": "5480",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Comeptência Territorial",
+    "caminho": "Processo Penal > Competência > Comeptência Territorial"
+  },
+  "5485": {
+    "id": "5485",
+    "parent_id": "5480",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência de Juízo",
+    "caminho": "Processo Penal > Competência > Competência de Juízo"
+  },
+  "5482": {
+    "id": "5482",
+    "parent_id": "5480",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência em Razão da Matéria",
+    "caminho": "Processo Penal > Competência > Competência em Razão da Matéria"
+  },
+  "5484": {
+    "id": "5484",
+    "parent_id": "5480",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência por Prerrogativa de Função",
+    "caminho": "Processo Penal > Competência > Competência por Prerrogativa de Função"
+  },
+  "5481": {
+    "id": "5481",
+    "parent_id": "5480",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Espécies e Fixação de Competência Criminal",
+    "caminho": "Processo Penal > Competência > Espécies e Fixação de Competência Criminal"
+  },
+  "5486": {
+    "id": "5486",
+    "parent_id": "5480",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prorrogação, Perpetuação e Modificação de Competência",
+    "caminho": "Processo Penal > Competência > Prorrogação, Perpetuação e Modificação de Competência"
+  },
+  "5487": {
+    "id": "5487",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Comunicação dos Atos Processuais",
+    "caminho": "Processo Penal > Comunicação dos Atos Processuais"
+  },
+  "5488": {
+    "id": "5488",
+    "parent_id": "5487",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Citação e Contagem dos Prazos",
+    "caminho": "Processo Penal > Comunicação dos Atos Processuais > Citação e Contagem dos Prazos"
+  },
+  "5489": {
+    "id": "5489",
+    "parent_id": "5487",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Intimação e Contagem dos Prazos",
+    "caminho": "Processo Penal > Comunicação dos Atos Processuais > Intimação e Contagem dos Prazos"
+  },
+  "5490": {
+    "id": "5490",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Das Questões e Processos Incidentes",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes"
+  },
+  "5493": {
+    "id": "5493",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Exceção de Incompetência e de Ilegitimidade",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Exceção de Incompetência e de Ilegitimidade"
+  },
+  "5494": {
+    "id": "5494",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Exceção de Litispendência e de Coisa Julgada",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Exceção de Litispendência e de Coisa Julgada"
+  },
+  "5492": {
+    "id": "5492",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Exceção de Suspeição, de Impedimento ou de Incompatibilidade",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Exceção de Suspeição, de Impedimento ou de Incompatibilidade"
+  },
+  "5497": {
+    "id": "5497",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Incidente de Falsidade e de Insanidade Mental",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Incidente de Falsidade e de Insanidade Mental"
+  },
+  "5496": {
+    "id": "5496",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto"
+  },
+  "5491": {
+    "id": "5491",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Questões Prejudiciais e Preliminares",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Questões Prejudiciais e Preliminares"
+  },
+  "5495": {
+    "id": "5495",
+    "parent_id": "5490",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Restituição de Coisas Apreendidas",
+    "caminho": "Processo Penal > Das Questões e Processos Incidentes > Restituição de Coisas Apreendidas"
+  },
+  "5498": {
+    "id": "5498",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Inquérito Policial",
+    "caminho": "Processo Penal > Inquérito Policial"
+  },
+  "5502": {
+    "id": "5502",
+    "parent_id": "5498",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Acordo de Não Persecução Penal",
+    "caminho": "Processo Penal > Inquérito Policial > Acordo de Não Persecução Penal"
+  },
+  "5499": {
+    "id": "5499",
+    "parent_id": "5498",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Conceito, Finalidade e Caractéristas do Inquérito Policial",
+    "caminho": "Processo Penal > Inquérito Policial > Conceito, Finalidade e Caractéristas do Inquérito Policial"
+  },
+  "5501": {
+    "id": "5501",
+    "parent_id": "5498",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Conclusão e Arquivamento do Inquérito Policial",
+    "caminho": "Processo Penal > Inquérito Policial > Conclusão e Arquivamento do Inquérito Policial"
+  },
+  "5504": {
+    "id": "5504",
+    "parent_id": "5498",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Inquérito Civil",
+    "caminho": "Processo Penal > Inquérito Policial > Inquérito Civil"
+  },
+  "5503": {
+    "id": "5503",
+    "parent_id": "5498",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Juiz das Garantias",
+    "caminho": "Processo Penal > Inquérito Policial > Juiz das Garantias"
+  },
+  "5500": {
+    "id": "5500",
+    "parent_id": "5498",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Procedimento do Inquérito Policial",
+    "caminho": "Processo Penal > Inquérito Policial > Procedimento do Inquérito Policial"
+  },
+  "5505": {
+    "id": "5505",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Lei Processual no Tempo e no Espaço",
+    "caminho": "Processo Penal > Lei Processual no Tempo e no Espaço"
+  },
+  "5508": {
+    "id": "5508",
+    "parent_id": "5505",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Interpretação da Lei processual Penal",
+    "caminho": "Processo Penal > Lei Processual no Tempo e no Espaço > Interpretação da Lei processual Penal"
+  },
+  "5506": {
+    "id": "5506",
+    "parent_id": "5505",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Lei Processual no Espaço",
+    "caminho": "Processo Penal > Lei Processual no Tempo e no Espaço > Lei Processual no Espaço"
+  },
+  "5507": {
+    "id": "5507",
+    "parent_id": "5505",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Lei processual no Tempo",
+    "caminho": "Processo Penal > Lei Processual no Tempo e no Espaço > Lei processual no Tempo"
+  },
+  "6734": {
+    "id": "6734",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Lei de Execução Penal",
+    "caminho": "Processo Penal > Lei de Execução Penal"
+  },
+  "5509": {
+    "id": "5509",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Nulidades",
+    "caminho": "Processo Penal > Nulidades"
+  },
+  "5510": {
+    "id": "5510",
+    "parent_id": "5509",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Nulidade Absoluta e Relativa",
+    "caminho": "Processo Penal > Nulidades > Nulidade Absoluta e Relativa"
+  },
+  "5511": {
+    "id": "5511",
+    "parent_id": "5509",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Nulidades em Espécie",
+    "caminho": "Processo Penal > Nulidades > Nulidades em Espécie"
+  },
+  "5512": {
+    "id": "5512",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Parte Geral dos Recursos",
+    "caminho": "Processo Penal > Parte Geral dos Recursos"
+  },
+  "5516": {
+    "id": "5516",
+    "parent_id": "5512",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Classificação dos Recursos",
+    "caminho": "Processo Penal > Parte Geral dos Recursos > Classificação dos Recursos"
+  },
+  "5515": {
+    "id": "5515",
+    "parent_id": "5512",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Efeito dos Recursos",
+    "caminho": "Processo Penal > Parte Geral dos Recursos > Efeito dos Recursos"
+  },
+  "5514": {
+    "id": "5514",
+    "parent_id": "5512",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Pressupostos Objetivos e Subjetivos de Admissibilidade Recursal",
+    "caminho": "Processo Penal > Parte Geral dos Recursos > Pressupostos Objetivos e Subjetivos de Admissibilidade Recursal"
+  },
+  "5513": {
+    "id": "5513",
+    "parent_id": "5512",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Princípios Recursais no Processo Penal",
+    "caminho": "Processo Penal > Parte Geral dos Recursos > Princípios Recursais no Processo Penal"
+  },
+  "5517": {
+    "id": "5517",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Prisões em Espécie",
+    "caminho": "Processo Penal > Prisões em Espécie"
+  },
+  "5523": {
+    "id": "5523",
+    "parent_id": "5517",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Liberdade Provisória",
+    "caminho": "Processo Penal > Prisões em Espécie > Liberdade Provisória"
+  },
+  "5522": {
+    "id": "5522",
+    "parent_id": "5517",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Medidas Cautelares Diversas da Prisão",
+    "caminho": "Processo Penal > Prisões em Espécie > Medidas Cautelares Diversas da Prisão"
+  },
+  "5521": {
+    "id": "5521",
+    "parent_id": "5517",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prisão Domiciliar",
+    "caminho": "Processo Penal > Prisões em Espécie > Prisão Domiciliar"
+  },
+  "5519": {
+    "id": "5519",
+    "parent_id": "5517",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prisão Preventiva",
+    "caminho": "Processo Penal > Prisões em Espécie > Prisão Preventiva"
+  },
+  "5520": {
+    "id": "5520",
+    "parent_id": "5517",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prisão Temporária",
+    "caminho": "Processo Penal > Prisões em Espécie > Prisão Temporária"
+  },
+  "5518": {
+    "id": "5518",
+    "parent_id": "5517",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prisão em Flagrante",
+    "caminho": "Processo Penal > Prisões em Espécie > Prisão em Flagrante"
+  },
+  "5530": {
+    "id": "5530",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Procedimento Ordinário",
+    "caminho": "Processo Penal > Procedimento Ordinário"
+  },
+  "5531": {
+    "id": "5531",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "2 Oferecimento, Rejeição e Recebimento da Peça Acusatória",
+    "caminho": "Processo Penal > Procedimento Ordinário > 2 Oferecimento, Rejeição e Recebimento da Peça Acusatória"
+  },
+  "5534": {
+    "id": "5534",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Absolvição Sumária",
+    "caminho": "Processo Penal > Procedimento Ordinário > Absolvição Sumária"
+  },
+  "5536": {
+    "id": "5536",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Alegações Orais",
+    "caminho": "Processo Penal > Procedimento Ordinário > Alegações Orais"
+  },
+  "5535": {
+    "id": "5535",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Audiência de Instrução e Julgamento",
+    "caminho": "Processo Penal > Procedimento Ordinário > Audiência de Instrução e Julgamento"
+  },
+  "5532": {
+    "id": "5532",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Classificação dos Procedimentos",
+    "caminho": "Processo Penal > Procedimento Ordinário > Classificação dos Procedimentos"
+  },
+  "5533": {
+    "id": "5533",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Defesa Preliminar",
+    "caminho": "Processo Penal > Procedimento Ordinário > Defesa Preliminar"
+  },
+  "5537": {
+    "id": "5537",
+    "parent_id": "5530",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença",
+    "caminho": "Processo Penal > Procedimento Ordinário > Sentença"
+  },
+  "5539": {
+    "id": "5539",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Procedimento Sumaríssimo",
+    "caminho": "Processo Penal > Procedimento Sumaríssimo"
+  },
+  "5540": {
+    "id": "5540",
+    "parent_id": "5539",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Competência dos Juizados Especiais Criminais",
+    "caminho": "Processo Penal > Procedimento Sumaríssimo > Competência dos Juizados Especiais Criminais"
+  },
+  "5542": {
+    "id": "5542",
+    "parent_id": "5539",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Suspensão Condicional do Processo",
+    "caminho": "Processo Penal > Procedimento Sumaríssimo > Suspensão Condicional do Processo"
+  },
+  "5541": {
+    "id": "5541",
+    "parent_id": "5539",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Transação Penal",
+    "caminho": "Processo Penal > Procedimento Sumaríssimo > Transação Penal"
+  },
+  "5538": {
+    "id": "5538",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Procedimento Sumário",
+    "caminho": "Processo Penal > Procedimento Sumário"
+  },
+  "5524": {
+    "id": "5524",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Procedimento do Tribunal do Júri",
+    "caminho": "Processo Penal > Procedimento do Tribunal do Júri"
+  },
+  "5527": {
+    "id": "5527",
+    "parent_id": "5524",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia",
+    "caminho": "Processo Penal > Procedimento do Tribunal do Júri > Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia"
+  },
+  "5528": {
+    "id": "5528",
+    "parent_id": "5524",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Organização do Júri e Sessão de Julgamento",
+    "caminho": "Processo Penal > Procedimento do Tribunal do Júri > Organização do Júri e Sessão de Julgamento"
+  },
+  "5525": {
+    "id": "5525",
+    "parent_id": "5524",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Princípios Constitucionais do Júri",
+    "caminho": "Processo Penal > Procedimento do Tribunal do Júri > Princípios Constitucionais do Júri"
+  },
+  "5526": {
+    "id": "5526",
+    "parent_id": "5524",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Procedimento Bifásico do Tribunal do Júri",
+    "caminho": "Processo Penal > Procedimento do Tribunal do Júri > Procedimento Bifásico do Tribunal do Júri"
+  },
+  "5529": {
+    "id": "5529",
+    "parent_id": "5524",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença do Júri",
+    "caminho": "Processo Penal > Procedimento do Tribunal do Júri > Sentença do Júri"
+  },
+  "6735": {
+    "id": "6735",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Provas em Espécie",
+    "caminho": "Processo Penal > Provas em Espécie"
+  },
+  "5543": {
+    "id": "5543",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Provas em Espécies",
+    "caminho": "Processo Penal > Provas em Espécies"
+  },
+  "5552": {
+    "id": "5552",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Acareação",
+    "caminho": "Processo Penal > Provas em Espécies > Acareação"
+  },
+  "5558": {
+    "id": "5558",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Ação Controlada",
+    "caminho": "Processo Penal > Provas em Espécies > Ação Controlada"
+  },
+  "5554": {
+    "id": "5554",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Busca e Apreensão",
+    "caminho": "Processo Penal > Provas em Espécies > Busca e Apreensão"
+  },
+  "5544": {
+    "id": "5544",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Cadeia de Custódia",
+    "caminho": "Processo Penal > Provas em Espécies > Cadeia de Custódia"
+  },
+  "5556": {
+    "id": "5556",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Captação Ambiental",
+    "caminho": "Processo Penal > Provas em Espécies > Captação Ambiental"
+  },
+  "5557": {
+    "id": "5557",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Colaboração Premiada",
+    "caminho": "Processo Penal > Provas em Espécies > Colaboração Premiada"
+  },
+  "5548": {
+    "id": "5548",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Confissão",
+    "caminho": "Processo Penal > Provas em Espécies > Confissão"
+  },
+  "5549": {
+    "id": "5549",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Declaração do Ofendido",
+    "caminho": "Processo Penal > Provas em Espécies > Declaração do Ofendido"
+  },
+  "5545": {
+    "id": "5545",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Exame de Corpo de Delito",
+    "caminho": "Processo Penal > Provas em Espécies > Exame de Corpo de Delito"
+  },
+  "5559": {
+    "id": "5559",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Infiltração de Agentes",
+    "caminho": "Processo Penal > Provas em Espécies > Infiltração de Agentes"
+  },
+  "5555": {
+    "id": "5555",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Interceptação Telefônica e Quebra do Sigilo de Dados Telefônicos",
+    "caminho": "Processo Penal > Provas em Espécies > Interceptação Telefônica e Quebra do Sigilo de Dados Telefônicos"
+  },
+  "5547": {
+    "id": "5547",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Interrogatório Judicial",
+    "caminho": "Processo Penal > Provas em Espécies > Interrogatório Judicial"
+  },
+  "5546": {
+    "id": "5546",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Perícia",
+    "caminho": "Processo Penal > Provas em Espécies > Perícia"
+  },
+  "5553": {
+    "id": "5553",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prova Documental",
+    "caminho": "Processo Penal > Provas em Espécies > Prova Documental"
+  },
+  "5550": {
+    "id": "5550",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prova Testemunhal",
+    "caminho": "Processo Penal > Provas em Espécies > Prova Testemunhal"
+  },
+  "5551": {
+    "id": "5551",
+    "parent_id": "5543",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Reconhecimento de Pessoas e Coisas",
+    "caminho": "Processo Penal > Provas em Espécies > Reconhecimento de Pessoas e Coisas"
+  },
+  "6736": {
+    "id": "6736",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Recursos (Parte 03) - Espécies",
+    "caminho": "Processo Penal > Recursos (Parte 03) - Espécies"
+  },
+  "5560": {
+    "id": "5560",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Recursos em Espécies",
+    "caminho": "Processo Penal > Recursos em Espécies"
+  },
+  "5566": {
+    "id": "5566",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Agravo em Execução",
+    "caminho": "Processo Penal > Recursos em Espécies > Agravo em Execução"
+  },
+  "5562": {
+    "id": "5562",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Apelação",
+    "caminho": "Processo Penal > Recursos em Espécies > Apelação"
+  },
+  "5567": {
+    "id": "5567",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Carta Testemunhavel",
+    "caminho": "Processo Penal > Recursos em Espécies > Carta Testemunhavel"
+  },
+  "5568": {
+    "id": "5568",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Correição Parcial",
+    "caminho": "Processo Penal > Recursos em Espécies > Correição Parcial"
+  },
+  "5564": {
+    "id": "5564",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Embargos Infringentes",
+    "caminho": "Processo Penal > Recursos em Espécies > Embargos Infringentes"
+  },
+  "5565": {
+    "id": "5565",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Embargos de Declaração",
+    "caminho": "Processo Penal > Recursos em Espécies > Embargos de Declaração"
+  },
+  "5563": {
+    "id": "5563",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Protesto por novo Júri",
+    "caminho": "Processo Penal > Recursos em Espécies > Protesto por novo Júri"
+  },
+  "5571": {
+    "id": "5571",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Recurso Especial",
+    "caminho": "Processo Penal > Recursos em Espécies > Recurso Especial"
+  },
+  "5570": {
+    "id": "5570",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Recurso Extraordinário",
+    "caminho": "Processo Penal > Recursos em Espécies > Recurso Extraordinário"
+  },
+  "5561": {
+    "id": "5561",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Recurso em sentido estrito (RESE)",
+    "caminho": "Processo Penal > Recursos em Espécies > Recurso em sentido estrito (RESE)"
+  },
+  "5569": {
+    "id": "5569",
+    "parent_id": "5560",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Recursos no Âmbito dos Juizados Especiais",
+    "caminho": "Processo Penal > Recursos em Espécies > Recursos no Âmbito dos Juizados Especiais"
+  },
+  "5572": {
+    "id": "5572",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença Penal",
+    "caminho": "Processo Penal > Sentença Penal"
+  },
+  "6737": {
+    "id": "6737",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença Penal (Parte 1)",
+    "caminho": "Processo Penal > Sentença Penal (Parte 1)"
+  },
+  "6738": {
+    "id": "6738",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença Penal (Parte 2)",
+    "caminho": "Processo Penal > Sentença Penal (Parte 2)"
+  },
+  "5573": {
+    "id": "5573",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Classificação dos Provimentos Judiciais",
+    "caminho": "Processo Penal > Sentença Penal > Classificação dos Provimentos Judiciais"
+  },
+  "5577": {
+    "id": "5577",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Efeitos Decorrentes da Sentença Penal Condenatória",
+    "caminho": "Processo Penal > Sentença Penal > Efeitos Decorrentes da Sentença Penal Condenatória"
+  },
+  "5579": {
+    "id": "5579",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Emendatio Libelli e Mutatio Libelli",
+    "caminho": "Processo Penal > Sentença Penal > Emendatio Libelli e Mutatio Libelli"
+  },
+  "5576": {
+    "id": "5576",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Fixação da Pena e do Regime Penitenciário",
+    "caminho": "Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário"
+  },
+  "5578": {
+    "id": "5578",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Princípio da Correlação entre Acusação e Sentença",
+    "caminho": "Processo Penal > Sentença Penal > Princípio da Correlação entre Acusação e Sentença"
+  },
+  "5574": {
+    "id": "5574",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença Absolutória",
+    "caminho": "Processo Penal > Sentença Penal > Sentença Absolutória"
+  },
+  "5575": {
+    "id": "5575",
+    "parent_id": "5572",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Sentença Condenatória",
+    "caminho": "Processo Penal > Sentença Penal > Sentença Condenatória"
+  },
+  "5580": {
+    "id": "5580",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Sistemas e Princípios Processuais Penais",
+    "caminho": "Processo Penal > Sistemas e Princípios Processuais Penais"
+  },
+  "5582": {
+    "id": "5582",
+    "parent_id": "5580",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Princípios do Processo Penal",
+    "caminho": "Processo Penal > Sistemas e Princípios Processuais Penais > Princípios do Processo Penal"
+  },
+  "5581": {
+    "id": "5581",
+    "parent_id": "5580",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Sistemas Processuais Penais",
+    "caminho": "Processo Penal > Sistemas e Princípios Processuais Penais > Sistemas Processuais Penais"
+  },
+  "5583": {
+    "id": "5583",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Sujeitos do Processo",
+    "caminho": "Processo Penal > Sujeitos do Processo"
+  },
+  "5584": {
+    "id": "5584",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Teoria Geral das Prisões",
+    "caminho": "Processo Penal > Teoria Geral das Prisões"
+  },
+  "5589": {
+    "id": "5589",
+    "parent_id": "5584",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Audiência de Custódia",
+    "caminho": "Processo Penal > Teoria Geral das Prisões > Audiência de Custódia"
+  },
+  "5585": {
+    "id": "5585",
+    "parent_id": "5584",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Conceitos e Espécies de Prisão",
+    "caminho": "Processo Penal > Teoria Geral das Prisões > Conceitos e Espécies de Prisão"
+  },
+  "5587": {
+    "id": "5587",
+    "parent_id": "5584",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Direitos e Garantias sobre a Prisão",
+    "caminho": "Processo Penal > Teoria Geral das Prisões > Direitos e Garantias sobre a Prisão"
+  },
+  "5586": {
+    "id": "5586",
+    "parent_id": "5584",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Imunidades Prisionais e Prisões Especiais",
+    "caminho": "Processo Penal > Teoria Geral das Prisões > Imunidades Prisionais e Prisões Especiais"
+  },
+  "5588": {
+    "id": "5588",
+    "parent_id": "5584",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Relaxamento da Prisão",
+    "caminho": "Processo Penal > Teoria Geral das Prisões > Relaxamento da Prisão"
+  },
+  "5590": {
+    "id": "5590",
+    "parent_id": "5465",
+    "nivel": 1,
+    "disciplina": "Processo Penal",
+    "titulo": "Teoria Geral das Provas",
+    "caminho": "Processo Penal > Teoria Geral das Provas"
+  },
+  "5591": {
+    "id": "5591",
+    "parent_id": "5590",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Finalidade, Sujeitos e Ônus da Prova",
+    "caminho": "Processo Penal > Teoria Geral das Provas > Finalidade, Sujeitos e Ônus da Prova"
+  },
+  "5595": {
+    "id": "5595",
+    "parent_id": "5590",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Princípios Relativos à Prova Penal",
+    "caminho": "Processo Penal > Teoria Geral das Provas > Princípios Relativos à Prova Penal"
+  },
+  "5593": {
+    "id": "5593",
+    "parent_id": "5590",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prova Emprestada",
+    "caminho": "Processo Penal > Teoria Geral das Provas > Prova Emprestada"
+  },
+  "5594": {
+    "id": "5594",
+    "parent_id": "5590",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Prova Ilegal e Prova Ilícita",
+    "caminho": "Processo Penal > Teoria Geral das Provas > Prova Ilegal e Prova Ilícita"
+  },
+  "5592": {
+    "id": "5592",
+    "parent_id": "5590",
+    "nivel": 2,
+    "disciplina": "Processo Penal",
+    "titulo": "Sistemas de Avaliação da Prova",
+    "caminho": "Processo Penal > Teoria Geral das Provas > Sistemas de Avaliação da Prova"
+  }
+}

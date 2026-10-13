@@ -1,0 +1,6 @@
+# O pipeline foi desenvolvido em Python puro (Standard Library)
+# para garantir portabilidade total, execução instantânea e ausência de atrito de ambiente.
+# Python 3.10+ é recomendado.
+
+# Dependências opcionais para análise e testes avançados:
+requests>=2.28.0
