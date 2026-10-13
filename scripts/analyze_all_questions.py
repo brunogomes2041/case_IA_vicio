@@ -2,9 +2,16 @@
 Script de análise exaustiva e classificação das 359 questões do case.
 Gera o trace detalhado em outputs/pipeline_trace.jsonl com todas as evidências.
 """
+import sys
 import json
 import re
 from pathlib import Path
+
+# Garante que o diretório raiz do projeto esteja no sys.path
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 from src.config import QUESTOES_PATH, TEMAS_PATH, OUTPUTS_DIR, TRACE_OUTPUT_PATH
 from src.taxonomy import Taxonomy
 from src.preprocessor import QuestionPreprocessor

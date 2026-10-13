@@ -2,9 +2,16 @@
 Script de auditoria amostral estratificada para estimar a precisão empírica
 e calibrar a autoavaliação (previsao.txt) com intervalo de confiança estatístico.
 """
+import sys
 import json
 import random
 from pathlib import Path
+
+# Garante que o diretório raiz do projeto esteja no sys.path
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 from src.config import TEMAS_PATH, QUESTOES_PATH, TRACE_OUTPUT_PATH, AUDIT_OUTPUT_PATH
 from src.taxonomy import Taxonomy
 from src.preprocessor import QuestionPreprocessor
