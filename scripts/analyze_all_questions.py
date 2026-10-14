@@ -233,14 +233,16 @@ def get_expert_classification(q, tax, searcher):
             {"area": "Processo Penal", "topic": "Inquérito Policial"}
         )
 
-    # Prisões em Espécie (5517 / 5518 / 5520 / 5521)
-    if any(k in text_lower for k in ["prisão temporária", "prisão preventiva", "prisão em flagrante"]):
+    # Prisões em Espécie (5517: pai / 5518: Flagrante / 5519: Preventiva / 5520: Temporária / 5521: Domiciliar)
+    if any(k in text_lower for k in ["prisão temporária", "prisão preventiva", "prisão em flagrante", "prisão domiciliar"]):
         if "temporária" in text_lower:
-            return ("publicar", "5521", "5517", 0.94, "", {"topic": "Prisão Temporária"})
+            return ("publicar", "5520", "5517", 0.94, "", {"topic": "Prisão Temporária"})
         elif "preventiva" in text_lower:
-            return ("publicar", "5520", "5517", 0.94, "", {"topic": "Prisão Preventiva"})
+            return ("publicar", "5519", "5517", 0.94, "", {"topic": "Prisão Preventiva"})
         elif "flagrante" in text_lower:
             return ("publicar", "5518", "5517", 0.94, "", {"topic": "Prisão em Flagrante"})
+        elif "domiciliar" in text_lower:
+            return ("publicar", "5521", "5517", 0.94, "", {"topic": "Prisão Domiciliar"})
         else:
             return ("publicar", "5517", "", 0.93, "", {"topic": "Prisões em Espécie"})
 

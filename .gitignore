@@ -1,4 +1,6 @@
-src/__pycache__/
-src/*.pyc
+__pycache__/
+*.pyc
+*.pyo
 .venv/
 .cache/
+outputs/relatorio_formatted.html

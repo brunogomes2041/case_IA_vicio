@@ -14,7 +14,7 @@ Q0012,publicar,4701,,0.94,
 Q0013,publicar,5503,5502,0.90,
 Q0014,publicar,5477,,0.93,
 Q0015,publicar,5498,,0.94,
-Q0016,publicar,5520,5517,0.94,
+Q0016,publicar,5519,5517,0.94,
 Q0017,publicar,5535,,0.90,
 Q0018,publicar,4701,,0.94,
 Q0019,publicar,5228,,0.94,
@@ -31,12 +31,12 @@ Q0029,publicar,4684,,0.96,
 Q0030,revisar,5130,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
 Q0031,publicar,4385,,0.94,
 Q0032,revisar,5545,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
-Q0033,publicar,5520,5517,0.94,
+Q0033,publicar,5519,5517,0.94,
 Q0034,publicar,5477,,0.93,
 Q0035,publicar,4706,,0.96,
 Q0036,publicar,4704,5077,0.96,
 Q0037,publicar,5132,5081,0.90,
-Q0038,publicar,5521,5517,0.94,
+Q0038,publicar,5520,5517,0.94,
 Q0039,revisar,5221,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
 Q0040,publicar,5524,,0.95,
 Q0041,publicar,5175,,0.94,
@@ -116,7 +116,7 @@ Q0114,publicar,5524,,0.95,
 Q0115,publicar,4385,,0.94,
 Q0116,publicar,4708,,0.90,
 Q0117,revisar,5199,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
-Q0118,publicar,5520,5517,0.94,
+Q0118,publicar,5519,5517,0.94,
 Q0119,revisar,5473,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
 Q0120,revisar,5595,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
 Q0121,publicar,5498,,0.94,
@@ -149,7 +149,7 @@ Q0147,publicar,4701,,0.94,
 Q0148,publicar,5203,5202,0.90,
 Q0149,publicar,5498,,0.94,
 Q0150,revisar,5571,6728,0.72,Dúvida entre 5571 (Recurso Especial) e 6728 (Tráfico de Drogas) devido a sobreposição fática.
-Q0151,publicar,5521,5517,0.94,
+Q0151,publicar,5520,5517,0.94,
 Q0152,revisar,5466,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
 Q0153,revisar,5221,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
 Q0154,revisar,5135,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
@@ -227,7 +227,7 @@ Q0225,revisar,5562,5571,0.72,Dúvida entre 5562 (Apelação) e 5571 (Recurso Esp
 Q0226,revisar,5535,5544,0.72,Dúvida entre 5535 (Audiência de Instrução e Julgamento) e 5544 (Cadeia de Custódia) devido a sobreposição fática.
 Q0227,publicar,5067,5066,0.94,
 Q0228,revisar,5104,,0.65,Baixa pontuação de aderência aos temas da taxonomia; requer revisão pelo professor.
-Q0229,publicar,5521,5517,0.94,
+Q0229,publicar,5520,5517,0.94,
 Q0230,publicar,5181,5180,0.95,
 Q0231,publicar,4708,,0.96,
 Q0232,revisar,5080,5474,0.72,"Dúvida entre 5080 (Denunciação Caluniosa, Comunicação Falsa de Crime ou Contravenção e Autoacusação Falsa) e 5474 (Queixa Crime) devido a sobreposição fática."
